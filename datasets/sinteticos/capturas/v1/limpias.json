@@ -1,0 +1,2642 @@
+[
+ {
+  "id": "cap-0000",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 755.6,
+  "landed_at": "2026-09-04T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 34.2
+  }
+ },
+ {
+  "id": "cap-0001",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 806.5,
+  "landed_at": "2026-09-16T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 34",
+   "length_m": 8.0
+  }
+ },
+ {
+  "id": "cap-0002",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 7.6,
+  "landed_at": "2026-09-19T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 22.4
+  }
+ },
+ {
+  "id": "cap-0003",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 320.2,
+  "landed_at": "2026-09-20T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 38.1
+  }
+ },
+ {
+  "id": "cap-0004",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 624.5,
+  "landed_at": "2026-09-18T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 18.7
+  }
+ },
+ {
+  "id": "cap-0005",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 351.8,
+  "landed_at": "2026-09-27T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 20.5
+  }
+ },
+ {
+  "id": "cap-0006",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 591.5,
+  "landed_at": "2026-09-24T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 12.1
+  }
+ },
+ {
+  "id": "cap-0007",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 884.1,
+  "landed_at": "2026-09-11T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 24.3
+  }
+ },
+ {
+  "id": "cap-0008",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 692.7,
+  "landed_at": "2026-09-17T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 16.8
+  }
+ },
+ {
+  "id": "cap-0009",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 146.5,
+  "landed_at": "2026-09-23T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 30.9
+  }
+ },
+ {
+  "id": "cap-0010",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 83.3,
+  "landed_at": "2026-09-19T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 34",
+   "length_m": 10.4
+  }
+ },
+ {
+  "id": "cap-0011",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 681.6,
+  "landed_at": "2026-09-07T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 17",
+   "length_m": 17.5
+  }
+ },
+ {
+  "id": "cap-0012",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 214.1,
+  "landed_at": "2026-09-15T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 29.4
+  }
+ },
+ {
+  "id": "cap-0013",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 524.9,
+  "landed_at": "2026-09-01T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 17.2
+  }
+ },
+ {
+  "id": "cap-0014",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 443.0,
+  "landed_at": "2026-09-07T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 9.5
+  }
+ },
+ {
+  "id": "cap-0015",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 96.5,
+  "landed_at": "2026-09-30T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 22",
+   "length_m": 38.3
+  }
+ },
+ {
+  "id": "cap-0016",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 457.6,
+  "landed_at": "2026-09-04T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 34.4
+  }
+ },
+ {
+  "id": "cap-0017",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 676.0,
+  "landed_at": "2026-09-02T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 8.6
+  }
+ },
+ {
+  "id": "cap-0018",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 248.1,
+  "landed_at": "2026-09-03T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 16",
+   "length_m": 31.1
+  }
+ },
+ {
+  "id": "cap-0019",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 299.0,
+  "landed_at": "2026-09-20T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 10.7
+  }
+ },
+ {
+  "id": "cap-0020",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 345.2,
+  "landed_at": "2026-09-10T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 8",
+   "length_m": 22.9
+  }
+ },
+ {
+  "id": "cap-0021",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 22.4,
+  "landed_at": "2026-09-30T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 12.1
+  }
+ },
+ {
+  "id": "cap-0022",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 886.3,
+  "landed_at": "2026-09-29T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 32.6
+  }
+ },
+ {
+  "id": "cap-0023",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 783.8,
+  "landed_at": "2026-09-07T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 9.9
+  }
+ },
+ {
+  "id": "cap-0024",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 731.6,
+  "landed_at": "2026-09-09T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 16.5
+  }
+ },
+ {
+  "id": "cap-0025",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 83.4,
+  "landed_at": "2026-09-01T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 33",
+   "length_m": 10.5
+  }
+ },
+ {
+  "id": "cap-0026",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 691.3,
+  "landed_at": "2026-09-09T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 17",
+   "length_m": 38.3
+  }
+ },
+ {
+  "id": "cap-0027",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 614.9,
+  "landed_at": "2026-09-03T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 8.7
+  }
+ },
+ {
+  "id": "cap-0028",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 465.5,
+  "landed_at": "2026-09-28T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 33",
+   "length_m": 36.2
+  }
+ },
+ {
+  "id": "cap-0029",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 891.3,
+  "landed_at": "2026-09-25T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 22.8
+  }
+ },
+ {
+  "id": "cap-0030",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 638.7,
+  "landed_at": "2026-09-02T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 22.2
+  }
+ },
+ {
+  "id": "cap-0031",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 776.9,
+  "landed_at": "2026-09-19T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 15.3
+  }
+ },
+ {
+  "id": "cap-0032",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 706.1,
+  "landed_at": "2026-09-17T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 33.8
+  }
+ },
+ {
+  "id": "cap-0033",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 670.7,
+  "landed_at": "2026-09-20T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 22",
+   "length_m": 35.4
+  }
+ },
+ {
+  "id": "cap-0034",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 495.4,
+  "landed_at": "2026-09-08T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 39.7
+  }
+ },
+ {
+  "id": "cap-0035",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 523.2,
+  "landed_at": "2026-09-27T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 19.9
+  }
+ },
+ {
+  "id": "cap-0036",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 525.2,
+  "landed_at": "2026-09-17T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 27.7
+  }
+ },
+ {
+  "id": "cap-0037",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 840.6,
+  "landed_at": "2026-09-23T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 17",
+   "length_m": 11.9
+  }
+ },
+ {
+  "id": "cap-0038",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 171.5,
+  "landed_at": "2026-09-11T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 7",
+   "length_m": 18.8
+  }
+ },
+ {
+  "id": "cap-0039",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 533.6,
+  "landed_at": "2026-09-08T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 37",
+   "length_m": 11.1
+  }
+ },
+ {
+  "id": "cap-0040",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 473.0,
+  "landed_at": "2026-09-27T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 38.7
+  }
+ },
+ {
+  "id": "cap-0041",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 177.6,
+  "landed_at": "2026-09-22T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 23.1
+  }
+ },
+ {
+  "id": "cap-0042",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 50.7,
+  "landed_at": "2026-09-27T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 39.3
+  }
+ },
+ {
+  "id": "cap-0043",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 501.1,
+  "landed_at": "2026-09-22T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 25.7
+  }
+ },
+ {
+  "id": "cap-0044",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 608.5,
+  "landed_at": "2026-09-04T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 13.2
+  }
+ },
+ {
+  "id": "cap-0045",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 505.0,
+  "landed_at": "2026-09-02T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 10.4
+  }
+ },
+ {
+  "id": "cap-0046",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 693.1,
+  "landed_at": "2026-09-04T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 16.1
+  }
+ },
+ {
+  "id": "cap-0047",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 123.6,
+  "landed_at": "2026-09-19T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 37.5
+  }
+ },
+ {
+  "id": "cap-0048",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 312.5,
+  "landed_at": "2026-09-15T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 32.6
+  }
+ },
+ {
+  "id": "cap-0049",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 453.4,
+  "landed_at": "2026-09-10T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 30.8
+  }
+ },
+ {
+  "id": "cap-0050",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 806.2,
+  "landed_at": "2026-09-23T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 28.7
+  }
+ },
+ {
+  "id": "cap-0051",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 765.0,
+  "landed_at": "2026-09-15T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 32.0
+  }
+ },
+ {
+  "id": "cap-0052",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 801.6,
+  "landed_at": "2026-09-26T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 17.6
+  }
+ },
+ {
+  "id": "cap-0053",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 807.3,
+  "landed_at": "2026-09-27T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 17.8
+  }
+ },
+ {
+  "id": "cap-0054",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 461.7,
+  "landed_at": "2026-09-09T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 8.4
+  }
+ },
+ {
+  "id": "cap-0055",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 847.6,
+  "landed_at": "2026-09-04T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 7",
+   "length_m": 16.1
+  }
+ },
+ {
+  "id": "cap-0056",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 646.7,
+  "landed_at": "2026-09-19T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 27.2
+  }
+ },
+ {
+  "id": "cap-0057",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 817.9,
+  "landed_at": "2026-09-26T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 31.4
+  }
+ },
+ {
+  "id": "cap-0058",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 774.3,
+  "landed_at": "2026-09-19T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 22",
+   "length_m": 18.0
+  }
+ },
+ {
+  "id": "cap-0059",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 633.5,
+  "landed_at": "2026-09-14T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 26.7
+  }
+ },
+ {
+  "id": "cap-0060",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 139.4,
+  "landed_at": "2026-09-28T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 11",
+   "length_m": 34.2
+  }
+ },
+ {
+  "id": "cap-0061",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 627.3,
+  "landed_at": "2026-09-13T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 37",
+   "length_m": 25.8
+  }
+ },
+ {
+  "id": "cap-0062",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 369.7,
+  "landed_at": "2026-09-15T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 28.7
+  }
+ },
+ {
+  "id": "cap-0063",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 864.3,
+  "landed_at": "2026-09-22T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 27.4
+  }
+ },
+ {
+  "id": "cap-0064",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 451.9,
+  "landed_at": "2026-09-23T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 23",
+   "length_m": 21.7
+  }
+ },
+ {
+  "id": "cap-0065",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 202.0,
+  "landed_at": "2026-09-18T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 30.9
+  }
+ },
+ {
+  "id": "cap-0066",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 504.7,
+  "landed_at": "2026-09-23T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 34",
+   "length_m": 28.8
+  }
+ },
+ {
+  "id": "cap-0067",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 325.0,
+  "landed_at": "2026-09-08T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 19.0
+  }
+ },
+ {
+  "id": "cap-0068",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 502.4,
+  "landed_at": "2026-09-11T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 26.0
+  }
+ },
+ {
+  "id": "cap-0069",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 289.8,
+  "landed_at": "2026-09-13T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 4",
+   "length_m": 8.2
+  }
+ },
+ {
+  "id": "cap-0070",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 482.5,
+  "landed_at": "2026-09-05T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 34",
+   "length_m": 32.4
+  }
+ },
+ {
+  "id": "cap-0071",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 712.6,
+  "landed_at": "2026-09-29T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 18.9
+  }
+ },
+ {
+  "id": "cap-0072",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 57.6,
+  "landed_at": "2026-09-07T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 12.6
+  }
+ },
+ {
+  "id": "cap-0073",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 177.0,
+  "landed_at": "2026-09-17T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 30.9
+  }
+ },
+ {
+  "id": "cap-0074",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 476.2,
+  "landed_at": "2026-09-20T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 20.1
+  }
+ },
+ {
+  "id": "cap-0075",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 385.5,
+  "landed_at": "2026-09-17T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 34",
+   "length_m": 24.2
+  }
+ },
+ {
+  "id": "cap-0076",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 325.8,
+  "landed_at": "2026-09-26T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 28.7
+  }
+ },
+ {
+  "id": "cap-0077",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 447.9,
+  "landed_at": "2026-09-22T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 21.8
+  }
+ },
+ {
+  "id": "cap-0078",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 83.5,
+  "landed_at": "2026-09-22T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 13",
+   "length_m": 16.2
+  }
+ },
+ {
+  "id": "cap-0079",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 173.9,
+  "landed_at": "2026-09-01T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 15.0
+  }
+ },
+ {
+  "id": "cap-0080",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 730.2,
+  "landed_at": "2026-09-30T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 9.1
+  }
+ },
+ {
+  "id": "cap-0081",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 247.0,
+  "landed_at": "2026-09-30T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 38.8
+  }
+ },
+ {
+  "id": "cap-0082",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 184.6,
+  "landed_at": "2026-09-04T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 13",
+   "length_m": 38.7
+  }
+ },
+ {
+  "id": "cap-0083",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 379.2,
+  "landed_at": "2026-09-25T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 29.4
+  }
+ },
+ {
+  "id": "cap-0084",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 418.7,
+  "landed_at": "2026-09-12T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 9.7
+  }
+ },
+ {
+  "id": "cap-0085",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 410.9,
+  "landed_at": "2026-09-18T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 18.8
+  }
+ },
+ {
+  "id": "cap-0086",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 360.8,
+  "landed_at": "2026-09-01T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 8.0
+  }
+ },
+ {
+  "id": "cap-0087",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 830.6,
+  "landed_at": "2026-09-02T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 33.2
+  }
+ },
+ {
+  "id": "cap-0088",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 168.2,
+  "landed_at": "2026-09-14T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 38.4
+  }
+ },
+ {
+  "id": "cap-0089",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 756.9,
+  "landed_at": "2026-09-13T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 18",
+   "length_m": 32.6
+  }
+ },
+ {
+  "id": "cap-0090",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 685.9,
+  "landed_at": "2026-09-22T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 31.5
+  }
+ },
+ {
+  "id": "cap-0091",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 617.2,
+  "landed_at": "2026-09-11T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 8",
+   "length_m": 19.4
+  }
+ },
+ {
+  "id": "cap-0092",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 328.1,
+  "landed_at": "2026-09-02T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 26",
+   "length_m": 12.5
+  }
+ },
+ {
+  "id": "cap-0093",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 11.6,
+  "landed_at": "2026-09-22T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 22.3
+  }
+ },
+ {
+  "id": "cap-0094",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 127.9,
+  "landed_at": "2026-09-11T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 38.9
+  }
+ },
+ {
+  "id": "cap-0095",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 293.1,
+  "landed_at": "2026-09-26T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 26.6
+  }
+ },
+ {
+  "id": "cap-0096",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 164.7,
+  "landed_at": "2026-09-22T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 14.1
+  }
+ },
+ {
+  "id": "cap-0097",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 831.2,
+  "landed_at": "2026-09-03T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 20.9
+  }
+ },
+ {
+  "id": "cap-0098",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 346.5,
+  "landed_at": "2026-09-13T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 13.0
+  }
+ },
+ {
+  "id": "cap-0099",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 888.9,
+  "landed_at": "2026-09-12T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 15.2
+  }
+ },
+ {
+  "id": "cap-0100",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 677.6,
+  "landed_at": "2026-09-15T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 32.6
+  }
+ },
+ {
+  "id": "cap-0101",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 315.6,
+  "landed_at": "2026-09-15T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 30.0
+  }
+ },
+ {
+  "id": "cap-0102",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 114.9,
+  "landed_at": "2026-09-15T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 14.1
+  }
+ },
+ {
+  "id": "cap-0103",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 632.1,
+  "landed_at": "2026-09-21T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 23",
+   "length_m": 17.9
+  }
+ },
+ {
+  "id": "cap-0104",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 68.8,
+  "landed_at": "2026-09-01T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 22.0
+  }
+ },
+ {
+  "id": "cap-0105",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 310.6,
+  "landed_at": "2026-09-02T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 22.4
+  }
+ },
+ {
+  "id": "cap-0106",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 752.0,
+  "landed_at": "2026-09-23T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 22.8
+  }
+ },
+ {
+  "id": "cap-0107",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 499.8,
+  "landed_at": "2026-09-28T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 37.7
+  }
+ },
+ {
+  "id": "cap-0108",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 412.1,
+  "landed_at": "2026-09-09T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 6",
+   "length_m": 11.1
+  }
+ },
+ {
+  "id": "cap-0109",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 859.3,
+  "landed_at": "2026-09-10T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 7",
+   "length_m": 21.5
+  }
+ },
+ {
+  "id": "cap-0110",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 211.0,
+  "landed_at": "2026-09-18T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 16",
+   "length_m": 19.7
+  }
+ },
+ {
+  "id": "cap-0111",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 496.4,
+  "landed_at": "2026-09-22T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 32.9
+  }
+ },
+ {
+  "id": "cap-0112",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 867.4,
+  "landed_at": "2026-09-14T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 16.4
+  }
+ },
+ {
+  "id": "cap-0113",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 639.1,
+  "landed_at": "2026-09-27T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 39.5
+  }
+ },
+ {
+  "id": "cap-0114",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 120.5,
+  "landed_at": "2026-09-23T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 13",
+   "length_m": 10.2
+  }
+ },
+ {
+  "id": "cap-0115",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 378.9,
+  "landed_at": "2026-09-15T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 37.5
+  }
+ },
+ {
+  "id": "cap-0116",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 709.1,
+  "landed_at": "2026-09-27T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 35.3
+  }
+ },
+ {
+  "id": "cap-0117",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 616.4,
+  "landed_at": "2026-09-15T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 39",
+   "length_m": 12.4
+  }
+ },
+ {
+  "id": "cap-0118",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 744.8,
+  "landed_at": "2026-09-13T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 29.6
+  }
+ },
+ {
+  "id": "cap-0119",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 615.8,
+  "landed_at": "2026-09-14T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 28",
+   "length_m": 9.0
+  }
+ },
+ {
+  "id": "cap-0120",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 288.6,
+  "landed_at": "2026-09-06T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 19.3
+  }
+ },
+ {
+  "id": "cap-0121",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 102.3,
+  "landed_at": "2026-09-27T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 38.1
+  }
+ },
+ {
+  "id": "cap-0122",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 810.9,
+  "landed_at": "2026-09-12T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 24.9
+  }
+ },
+ {
+  "id": "cap-0123",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 18.5,
+  "landed_at": "2026-09-05T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 13",
+   "length_m": 9.5
+  }
+ },
+ {
+  "id": "cap-0124",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 243.8,
+  "landed_at": "2026-09-03T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 13.0
+  }
+ },
+ {
+  "id": "cap-0125",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 101.6,
+  "landed_at": "2026-09-14T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 27.1
+  }
+ },
+ {
+  "id": "cap-0126",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 521.3,
+  "landed_at": "2026-09-16T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 8.6
+  }
+ },
+ {
+  "id": "cap-0127",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 45.7,
+  "landed_at": "2026-09-15T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 13",
+   "length_m": 39.1
+  }
+ },
+ {
+  "id": "cap-0128",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 652.6,
+  "landed_at": "2026-09-29T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 27.1
+  }
+ },
+ {
+  "id": "cap-0129",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 385.1,
+  "landed_at": "2026-09-02T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 4",
+   "length_m": 28.3
+  }
+ },
+ {
+  "id": "cap-0130",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 308.1,
+  "landed_at": "2026-09-27T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 22.5
+  }
+ },
+ {
+  "id": "cap-0131",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 34.8,
+  "landed_at": "2026-09-24T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 39.8
+  }
+ },
+ {
+  "id": "cap-0132",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 376.8,
+  "landed_at": "2026-09-06T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 26",
+   "length_m": 12.4
+  }
+ },
+ {
+  "id": "cap-0133",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 141.0,
+  "landed_at": "2026-09-12T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 13.0
+  }
+ },
+ {
+  "id": "cap-0134",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 434.4,
+  "landed_at": "2026-09-08T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 39",
+   "length_m": 24.3
+  }
+ },
+ {
+  "id": "cap-0135",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 195.6,
+  "landed_at": "2026-09-28T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 12.9
+  }
+ },
+ {
+  "id": "cap-0136",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 458.4,
+  "landed_at": "2026-09-30T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 31.6
+  }
+ },
+ {
+  "id": "cap-0137",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 844.7,
+  "landed_at": "2026-09-09T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 28",
+   "length_m": 30.4
+  }
+ },
+ {
+  "id": "cap-0138",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 562.2,
+  "landed_at": "2026-09-20T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 28",
+   "length_m": 26.3
+  }
+ },
+ {
+  "id": "cap-0139",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 794.4,
+  "landed_at": "2026-09-07T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 12.2
+  }
+ },
+ {
+  "id": "cap-0140",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 560.4,
+  "landed_at": "2026-09-09T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 33",
+   "length_m": 20.4
+  }
+ },
+ {
+  "id": "cap-0141",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 625.9,
+  "landed_at": "2026-09-26T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 11.7
+  }
+ },
+ {
+  "id": "cap-0142",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 68.5,
+  "landed_at": "2026-09-07T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 9.3
+  }
+ },
+ {
+  "id": "cap-0143",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 606.0,
+  "landed_at": "2026-09-18T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 18.0
+  }
+ },
+ {
+  "id": "cap-0144",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 854.6,
+  "landed_at": "2026-09-08T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 40.0
+  }
+ },
+ {
+  "id": "cap-0145",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 424.0,
+  "landed_at": "2026-09-30T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 16",
+   "length_m": 11.6
+  }
+ },
+ {
+  "id": "cap-0146",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 819.0,
+  "landed_at": "2026-09-14T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 7",
+   "length_m": 15.4
+  }
+ },
+ {
+  "id": "cap-0147",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 341.2,
+  "landed_at": "2026-09-05T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 32.9
+  }
+ },
+ {
+  "id": "cap-0148",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 157.6,
+  "landed_at": "2026-09-22T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 24.6
+  }
+ },
+ {
+  "id": "cap-0149",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 358.4,
+  "landed_at": "2026-09-07T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 37.2
+  }
+ },
+ {
+  "id": "cap-0150",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 184.3,
+  "landed_at": "2026-09-20T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 15.3
+  }
+ },
+ {
+  "id": "cap-0151",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 440.0,
+  "landed_at": "2026-09-04T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 20.4
+  }
+ },
+ {
+  "id": "cap-0152",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 186.4,
+  "landed_at": "2026-09-28T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 4",
+   "length_m": 20.6
+  }
+ },
+ {
+  "id": "cap-0153",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 677.6,
+  "landed_at": "2026-09-01T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 23.8
+  }
+ },
+ {
+  "id": "cap-0154",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 374.6,
+  "landed_at": "2026-09-04T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 22",
+   "length_m": 18.8
+  }
+ },
+ {
+  "id": "cap-0155",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 52.7,
+  "landed_at": "2026-09-18T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 20.5
+  }
+ },
+ {
+  "id": "cap-0156",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 882.2,
+  "landed_at": "2026-09-04T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 38.1
+  }
+ },
+ {
+  "id": "cap-0157",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 625.7,
+  "landed_at": "2026-09-15T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 21.5
+  }
+ },
+ {
+  "id": "cap-0158",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 663.5,
+  "landed_at": "2026-09-07T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 13.3
+  }
+ },
+ {
+  "id": "cap-0159",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 724.3,
+  "landed_at": "2026-09-17T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 39",
+   "length_m": 29.6
+  }
+ },
+ {
+  "id": "cap-0160",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 35.8,
+  "landed_at": "2026-09-20T05:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 27.6
+  }
+ },
+ {
+  "id": "cap-0161",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 819.0,
+  "landed_at": "2026-09-10T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 28.4
+  }
+ },
+ {
+  "id": "cap-0162",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 816.8,
+  "landed_at": "2026-09-01T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 17.5
+  }
+ },
+ {
+  "id": "cap-0163",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 555.0,
+  "landed_at": "2026-09-03T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 28.2
+  }
+ },
+ {
+  "id": "cap-0164",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 381.4,
+  "landed_at": "2026-09-06T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 12.7
+  }
+ },
+ {
+  "id": "cap-0165",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 260.4,
+  "landed_at": "2026-09-20T02:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 36.3
+  }
+ },
+ {
+  "id": "cap-0166",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 263.5,
+  "landed_at": "2026-09-23T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 31.2
+  }
+ },
+ {
+  "id": "cap-0167",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 294.2,
+  "landed_at": "2026-09-20T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 17",
+   "length_m": 38.4
+  }
+ },
+ {
+  "id": "cap-0168",
+  "species": "Sardina pilchardus",
+  "port": "Cádiz",
+  "weight_kg": 65.0,
+  "landed_at": "2026-09-19T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 31.0
+  }
+ },
+ {
+  "id": "cap-0169",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 688.8,
+  "landed_at": "2026-09-13T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 11.7
+  }
+ },
+ {
+  "id": "cap-0170",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 7.3,
+  "landed_at": "2026-09-23T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 16.3
+  }
+ },
+ {
+  "id": "cap-0171",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 628.6,
+  "landed_at": "2026-09-02T21:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 8.2
+  }
+ },
+ {
+  "id": "cap-0172",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 191.6,
+  "landed_at": "2026-09-25T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 32.1
+  }
+ },
+ {
+  "id": "cap-0173",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 800.1,
+  "landed_at": "2026-09-07T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 28.3
+  }
+ },
+ {
+  "id": "cap-0174",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 164.1,
+  "landed_at": "2026-09-02T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 6",
+   "length_m": 35.9
+  }
+ },
+ {
+  "id": "cap-0175",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 12.2,
+  "landed_at": "2026-09-13T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 18.6
+  }
+ },
+ {
+  "id": "cap-0176",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 25.3,
+  "landed_at": "2026-09-17T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 21.5
+  }
+ },
+ {
+  "id": "cap-0177",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 367.6,
+  "landed_at": "2026-09-10T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 36.6
+  }
+ },
+ {
+  "id": "cap-0178",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 443.0,
+  "landed_at": "2026-09-04T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 12",
+   "length_m": 19.7
+  }
+ },
+ {
+  "id": "cap-0179",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 68.0,
+  "landed_at": "2026-09-23T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 10",
+   "length_m": 24.3
+  }
+ },
+ {
+  "id": "cap-0180",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 434.8,
+  "landed_at": "2026-09-10T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 27",
+   "length_m": 25.8
+  }
+ },
+ {
+  "id": "cap-0181",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 75.9,
+  "landed_at": "2026-09-11T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 21.0
+  }
+ },
+ {
+  "id": "cap-0182",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 245.1,
+  "landed_at": "2026-09-13T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 22",
+   "length_m": 24.2
+  }
+ },
+ {
+  "id": "cap-0183",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 386.5,
+  "landed_at": "2026-09-11T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 8.2
+  }
+ },
+ {
+  "id": "cap-0184",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 819.1,
+  "landed_at": "2026-09-17T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 39",
+   "length_m": 33.3
+  }
+ },
+ {
+  "id": "cap-0185",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 209.7,
+  "landed_at": "2026-09-16T00:00:00Z",
+  "vessel": {
+   "name": "Nodum 33",
+   "length_m": 12.6
+  }
+ },
+ {
+  "id": "cap-0186",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 288.9,
+  "landed_at": "2026-09-30T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 29.5
+  }
+ },
+ {
+  "id": "cap-0187",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 361.5,
+  "landed_at": "2026-09-13T12:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 15.9
+  }
+ },
+ {
+  "id": "cap-0188",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 570.4,
+  "landed_at": "2026-09-16T22:00:00Z",
+  "vessel": {
+   "name": "Nodum 26",
+   "length_m": 39.8
+  }
+ },
+ {
+  "id": "cap-0189",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 879.0,
+  "landed_at": "2026-09-07T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 23",
+   "length_m": 39.6
+  }
+ },
+ {
+  "id": "cap-0190",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 761.8,
+  "landed_at": "2026-09-20T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 5",
+   "length_m": 38.8
+  }
+ },
+ {
+  "id": "cap-0191",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 5.6,
+  "landed_at": "2026-09-14T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 10.5
+  }
+ },
+ {
+  "id": "cap-0192",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 326.1,
+  "landed_at": "2026-09-14T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 34.0
+  }
+ },
+ {
+  "id": "cap-0193",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 299.3,
+  "landed_at": "2026-09-10T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 27.6
+  }
+ },
+ {
+  "id": "cap-0194",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 417.2,
+  "landed_at": "2026-09-26T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 33",
+   "length_m": 15.5
+  }
+ },
+ {
+  "id": "cap-0195",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 819.3,
+  "landed_at": "2026-09-11T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 29.1
+  }
+ },
+ {
+  "id": "cap-0196",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 579.5,
+  "landed_at": "2026-09-28T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 16.0
+  }
+ },
+ {
+  "id": "cap-0197",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 729.0,
+  "landed_at": "2026-09-26T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 21.5
+  }
+ },
+ {
+  "id": "cap-0198",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 694.7,
+  "landed_at": "2026-09-20T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 12.7
+  }
+ },
+ {
+  "id": "cap-0199",
+  "species": "Merluccius merluccius",
+  "port": "Valencia",
+  "weight_kg": 677.4,
+  "landed_at": "2026-09-27T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 4",
+   "length_m": 39.6
+  }
+ },
+ {
+  "id": "cap-0200",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 390.4,
+  "landed_at": "2026-09-19T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 7",
+   "length_m": 27.6
+  }
+ },
+ {
+  "id": "cap-0201",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 597.4,
+  "landed_at": "2026-09-12T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 28",
+   "length_m": 18.6
+  }
+ },
+ {
+  "id": "cap-0202",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 211.9,
+  "landed_at": "2026-09-23T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 32.1
+  }
+ },
+ {
+  "id": "cap-0203",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 896.6,
+  "landed_at": "2026-09-25T09:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 25.1
+  }
+ },
+ {
+  "id": "cap-0204",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 796.4,
+  "landed_at": "2026-09-03T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 31.9
+  }
+ },
+ {
+  "id": "cap-0205",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 437.8,
+  "landed_at": "2026-09-23T20:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 23.8
+  }
+ },
+ {
+  "id": "cap-0206",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 568.8,
+  "landed_at": "2026-09-18T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 35",
+   "length_m": 12.3
+  }
+ },
+ {
+  "id": "cap-0207",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 271.0,
+  "landed_at": "2026-09-21T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 31.4
+  }
+ },
+ {
+  "id": "cap-0208",
+  "species": "Engraulis encrasicolus",
+  "port": "Valencia",
+  "weight_kg": 595.8,
+  "landed_at": "2026-09-23T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 4",
+   "length_m": 9.5
+  }
+ },
+ {
+  "id": "cap-0209",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 561.8,
+  "landed_at": "2026-09-02T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 36.6
+  }
+ },
+ {
+  "id": "cap-0210",
+  "species": "Sardina pilchardus",
+  "port": "Santander",
+  "weight_kg": 773.9,
+  "landed_at": "2026-09-26T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 23",
+   "length_m": 21.6
+  }
+ },
+ {
+  "id": "cap-0211",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 632.3,
+  "landed_at": "2026-09-20T23:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 16.4
+  }
+ },
+ {
+  "id": "cap-0212",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 362.2,
+  "landed_at": "2026-09-05T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 27.7
+  }
+ },
+ {
+  "id": "cap-0213",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 218.6,
+  "landed_at": "2026-09-04T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 37.6
+  }
+ },
+ {
+  "id": "cap-0214",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 774.8,
+  "landed_at": "2026-09-13T07:00:00Z",
+  "vessel": {
+   "name": "Nodum 2",
+   "length_m": 25.1
+  }
+ },
+ {
+  "id": "cap-0215",
+  "species": "Sardina pilchardus",
+  "port": "Vigo",
+  "weight_kg": 61.3,
+  "landed_at": "2026-09-25T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 16",
+   "length_m": 17.2
+  }
+ },
+ {
+  "id": "cap-0216",
+  "species": "Thunnus thynnus",
+  "port": "Santander",
+  "weight_kg": 158.4,
+  "landed_at": "2026-09-26T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 39",
+   "length_m": 28.1
+  }
+ },
+ {
+  "id": "cap-0217",
+  "species": "Sardina pilchardus",
+  "port": "Palma",
+  "weight_kg": 542.8,
+  "landed_at": "2026-09-03T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 36",
+   "length_m": 27.8
+  }
+ },
+ {
+  "id": "cap-0218",
+  "species": "Merluccius merluccius",
+  "port": "Cádiz",
+  "weight_kg": 818.6,
+  "landed_at": "2026-09-06T08:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 33.5
+  }
+ },
+ {
+  "id": "cap-0219",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 743.3,
+  "landed_at": "2026-09-17T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 32",
+   "length_m": 34.5
+  }
+ },
+ {
+  "id": "cap-0220",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 691.9,
+  "landed_at": "2026-09-12T17:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 34.3
+  }
+ },
+ {
+  "id": "cap-0221",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 820.2,
+  "landed_at": "2026-09-09T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 9",
+   "length_m": 20.4
+  }
+ },
+ {
+  "id": "cap-0222",
+  "species": "Thunnus thynnus",
+  "port": "Vigo",
+  "weight_kg": 109.4,
+  "landed_at": "2026-09-02T14:00:00Z",
+  "vessel": {
+   "name": "Nodum 38",
+   "length_m": 29.4
+  }
+ },
+ {
+  "id": "cap-0223",
+  "species": "Engraulis encrasicolus",
+  "port": "Santander",
+  "weight_kg": 478.6,
+  "landed_at": "2026-09-10T13:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 30.6
+  }
+ },
+ {
+  "id": "cap-0224",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 7.4,
+  "landed_at": "2026-09-10T04:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 27.2
+  }
+ },
+ {
+  "id": "cap-0225",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 408.6,
+  "landed_at": "2026-09-04T06:00:00Z",
+  "vessel": {
+   "name": "Nodum 24",
+   "length_m": 28.0
+  }
+ },
+ {
+  "id": "cap-0226",
+  "species": "Merluccius merluccius",
+  "port": "Vigo",
+  "weight_kg": 677.2,
+  "landed_at": "2026-09-02T03:00:00Z",
+  "vessel": {
+   "name": "Nodum 19",
+   "length_m": 21.2
+  }
+ },
+ {
+  "id": "cap-0227",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 713.4,
+  "landed_at": "2026-09-09T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 5",
+   "length_m": 12.6
+  }
+ },
+ {
+  "id": "cap-0228",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 548.0,
+  "landed_at": "2026-09-12T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 21",
+   "length_m": 23.5
+  }
+ },
+ {
+  "id": "cap-0229",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 399.3,
+  "landed_at": "2026-09-12T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 31",
+   "length_m": 32.2
+  }
+ },
+ {
+  "id": "cap-0230",
+  "species": "Engraulis encrasicolus",
+  "port": "Palma",
+  "weight_kg": 713.1,
+  "landed_at": "2026-09-23T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 1",
+   "length_m": 39.4
+  }
+ },
+ {
+  "id": "cap-0231",
+  "species": "Engraulis encrasicolus",
+  "port": "Cádiz",
+  "weight_kg": 717.2,
+  "landed_at": "2026-09-21T16:00:00Z",
+  "vessel": {
+   "name": "Nodum 37",
+   "length_m": 21.1
+  }
+ },
+ {
+  "id": "cap-0232",
+  "species": "Thunnus thynnus",
+  "port": "Palma",
+  "weight_kg": 403.9,
+  "landed_at": "2026-09-26T01:00:00Z",
+  "vessel": {
+   "name": "Nodum 14",
+   "length_m": 30.1
+  }
+ },
+ {
+  "id": "cap-0233",
+  "species": "Merluccius merluccius",
+  "port": "Palma",
+  "weight_kg": 545.3,
+  "landed_at": "2026-09-27T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 20",
+   "length_m": 18.6
+  }
+ },
+ {
+  "id": "cap-0234",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 895.7,
+  "landed_at": "2026-09-23T18:00:00Z",
+  "vessel": {
+   "name": "Nodum 15",
+   "length_m": 27.4
+  }
+ },
+ {
+  "id": "cap-0235",
+  "species": "Engraulis encrasicolus",
+  "port": "Vigo",
+  "weight_kg": 574.8,
+  "landed_at": "2026-09-07T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 36.5
+  }
+ },
+ {
+  "id": "cap-0236",
+  "species": "Thunnus thynnus",
+  "port": "Valencia",
+  "weight_kg": 262.9,
+  "landed_at": "2026-09-28T15:00:00Z",
+  "vessel": {
+   "name": "Nodum 25",
+   "length_m": 39.3
+  }
+ },
+ {
+  "id": "cap-0237",
+  "species": "Merluccius merluccius",
+  "port": "Santander",
+  "weight_kg": 626.9,
+  "landed_at": "2026-09-09T19:00:00Z",
+  "vessel": {
+   "name": "Nodum 29",
+   "length_m": 38.1
+  }
+ },
+ {
+  "id": "cap-0238",
+  "species": "Thunnus thynnus",
+  "port": "Cádiz",
+  "weight_kg": 5.5,
+  "landed_at": "2026-09-02T10:00:00Z",
+  "vessel": {
+   "name": "Nodum 3",
+   "length_m": 33.5
+  }
+ },
+ {
+  "id": "cap-0239",
+  "species": "Sardina pilchardus",
+  "port": "Valencia",
+  "weight_kg": 421.5,
+  "landed_at": "2026-09-01T11:00:00Z",
+  "vessel": {
+   "name": "Nodum 30",
+   "length_m": 37.4
+  }
+ }
+]

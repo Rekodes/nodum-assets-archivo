@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+  <station id="st-000" region="Cádiz">
+    <lat>36.4563</lat>
+    <lon>-4.0718</lon>
+    <depth_m>418</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-001" region="Palma">
+    <lat>39.3630</lat>
+    <lon>1.8190</lon>
+    <depth_m>2116</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-002" region="Vigo">
+    <lat>36.5373</lat>
+    <lon>-6.0341</lon>
+    <depth_m>38</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-003" region="Valencia">
+    <lat>37.0599</lat>
+    <lon>-6.2015</lon>
+    <depth_m>1499</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-004" region="Santander">
+    <lat>42.6080</lat>
+    <lon>-5.7408</lon>
+    <depth_m>2696</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-005" region="Valencia">
+    <lat>37.1979</lat>
+    <lon>-8.7726</lon>
+    <depth_m>2295</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-006" region="Cádiz">
+    <lat>42.2310</lat>
+    <lon>-7.2377</lon>
+    <depth_m>2151</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-007" region="Santander">
+    <lat>37.4416</lat>
+    <lon>-2.0937</lon>
+    <depth_m>912</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-008" region="Valencia">
+    <lat>42.1928</lat>
+    <lon>3.8313</lon>
+    <depth_m>3864</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-009" region="Cádiz">
+    <lat>42.7452</lat>
+    <lon>-1.3691</lon>
+    <depth_m></depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-010">
+    <lat>42.3721</lat>
+    <lon>0.9080</lon>
+    <depth_m>3892</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-011" region="Valencia">
+    <lat>41.7632</lat>
+    <lon>-0.0991</lon>
+    <depth_m>2594</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-012" region="Palma">
+    <lat>42.4961</lat>
+    <lon>-7.7084</lon>
+    <depth_m>604</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-013">
+    <lat>42.0637</lat>
+    <lon>-9.4340</lon>
+    <depth_m>686</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-014" region="Santander">
+    <lat>41.6085</lat>
+    <lon>1.9806</lon>
+    <depth_m>3270</depth_m>
+  </station>
+  <station id="st-015" region="Valencia">
+    <lat>36.4670</lat>
+    <lon>-6.8550</lon>
+    <depth_m>3341</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-016" region="Valencia">
+    <lat>35.4402</lat>
+    <lon>-4.4750</lon>
+    <depth_m>3155</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-017" region="Vigo">
+    <lat>37.0626</lat>
+    <lon>0.4608</lon>
+    <depth_m>2827</depth_m>
+  </station>
+  <station id="st-018" region="Palma">
+    <lat>37.1543</lat>
+    <lon>3.6390</lon>
+    <depth_m></depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-019" region="Palma">
+    <lat>39.9795</lat>
+    <lon>-5.6086</lon>
+    <depth_m>3179</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-020">
+    <lat>42.7290</lat>
+    <lon>-5.4920</lon>
+    <depth_m></depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-021" region="Vigo">
+    <lat>42.3674</lat>
+    <lon>-9.0589</lon>
+    <depth_m>1717</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-022" region="Vigo">
+    <lat>42.7968</lat>
+    <lon>1.4485</lon>
+    <depth_m>1771</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-023" region="Palma">
+    <lat>36.1681</lat>
+    <lon>-8.3999</lon>
+    <depth_m>1735</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-024" region="Cádiz">
+    <lat>43.2239</lat>
+    <lon>-3.5983</lon>
+    <depth_m>2990</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-025" region="Vigo">
+    <lat>37.4698</lat>
+    <lon>3.7820</lon>
+    <depth_m>3308</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-026" region="Vigo">
+    <lat>37.6297</lat>
+    <lon>-3.4704</lon>
+    <depth_m>2116</depth_m>
+  </station>
+  <station id="st-027" region="Palma">
+    <lat>39.1509</lat>
+    <lon>-8.5667</lon>
+    <depth_m>3697</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-028" region="Vigo">
+    <lat>40.4603</lat>
+    <lon>2.9800</lon>
+    <depth_m>2477</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-029" region="Valencia">
+    <lat>36.7004</lat>
+    <lon>-1.8850</lon>
+    <depth_m>3036</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-030" region="Valencia">
+    <lat>38.2610</lat>
+    <lon>-4.1119</lon>
+    <depth_m>2060</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-031" region="Santander">
+    <lat>42.6211</lat>
+    <lon>-8.4835</lon>
+    <depth_m>3813</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-032" region="Vigo">
+    <lat>42.5259</lat>
+    <lon>-6.8513</lon>
+    <depth_m>2280</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-033">
+    <lat>39.2075</lat>
+    <lon>-6.9267</lon>
+    <depth_m></depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-034" region="Santander">
+    <lat>43.3299</lat>
+    <lon>-6.3630</lon>
+    <depth_m>1796</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-035" region="Santander">
+    <lat>40.3617</lat>
+    <lon>2.9666</lon>
+    <depth_m>1083</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-036" region="Palma">
+    <lat>43.6057</lat>
+    <lon>-3.8744</lon>
+    <depth_m>1785</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-037" region="Santander">
+    <lat>39.7183</lat>
+    <lon>-6.4921</lon>
+    <depth_m>3402</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-038" region="Vigo">
+    <lat>41.5660</lat>
+    <lon>-6.9642</lon>
+    <depth_m></depth_m>
+  </station>
+  <station id="st-039" region="Valencia">
+    <lat>37.3531</lat>
+    <lon>-7.0647</lon>
+    <depth_m>1719</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-040" region="Palma">
+    <lat>37.4138</lat>
+    <lon>-1.4278</lon>
+    <depth_m>2493</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-041" region="Vigo">
+    <lat>43.9425</lat>
+    <lon>-4.5482</lon>
+    <depth_m>2664</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-042" region="Cádiz">
+    <lat>38.8098</lat>
+    <lon>-2.0446</lon>
+    <depth_m>1133</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-043" region="Santander">
+    <lat>41.8104</lat>
+    <lon>0.4396</lon>
+    <depth_m>1458</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-044" region="Vigo">
+    <lat>42.9976</lat>
+    <lon>-0.1280</lon>
+    <depth_m>671</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-045" region="Vigo">
+    <lat>39.4515</lat>
+    <lon>-1.1028</lon>
+    <depth_m>507</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-046" region="Palma">
+    <lat>39.9551</lat>
+    <lon>-1.7786</lon>
+    <depth_m>714</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-047">
+    <lat>37.5317</lat>
+    <lon>0.7233</lon>
+    <depth_m>731</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-048" region="Valencia">
+    <lat>40.8989</lat>
+    <lon>-8.6077</lon>
+    <depth_m>1003</depth_m>
+  </station>
+  <station id="st-049" region="Palma">
+    <lat>39.9251</lat>
+    <lon>0.6434</lon>
+    <depth_m>1885</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-050" region="Valencia">
+    <lat>35.9461</lat>
+    <lon>2.7141</lon>
+    <depth_m>2630</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-051" region="Palma">
+    <lat>41.7968</lat>
+    <lon>3.6582</lon>
+    <depth_m>2521</depth_m>
+  </station>
+  <station id="st-052" region="Santander">
+    <lat>43.8747</lat>
+    <lon>-8.4645</lon>
+    <depth_m>1467</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-053" region="Vigo">
+    <lat>38.8045</lat>
+    <lon>3.0706</lon>
+    <depth_m>1647</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-054" region="Santander">
+    <lat>39.0515</lat>
+    <lon>-8.5028</lon>
+    <depth_m>2548</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-055" region="Valencia">
+    <lat>42.2193</lat>
+    <lon>-7.8484</lon>
+    <depth_m>1532</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-056" region="Valencia">
+    <lat>37.4356</lat>
+    <lon>-0.9104</lon>
+    <depth_m>3314</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-057" region="Palma">
+    <lat>40.1574</lat>
+    <lon>3.0904</lon>
+    <depth_m>483</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-058" region="Santander">
+    <lat>39.6852</lat>
+    <lon>-0.7173</lon>
+    <depth_m>426</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-059" region="Cádiz">
+    <lat>35.5308</lat>
+    <lon>-4.1418</lon>
+    <depth_m></depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-060" region="Cádiz">
+    <lat>40.3051</lat>
+    <lon>-8.8069</lon>
+    <depth_m></depth_m>
+  </station>
+  <station id="st-061" region="Cádiz">
+    <lat>40.1005</lat>
+    <lon>-5.1073</lon>
+    <depth_m>1520</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-062" region="Santander">
+    <lat>43.9587</lat>
+    <lon>-7.6719</lon>
+    <depth_m>1209</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-063" region="Valencia">
+    <lat>35.4587</lat>
+    <lon>2.6520</lon>
+    <depth_m>2130</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-064" region="Cádiz">
+    <lat>43.0176</lat>
+    <lon>-8.9678</lon>
+    <depth_m>1728</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-065" region="Palma">
+    <lat>40.4651</lat>
+    <lon>-1.6507</lon>
+    <depth_m>1133</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-066" region="Vigo">
+    <lat>40.9370</lat>
+    <lon>3.8109</lon>
+    <depth_m>2466</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-067" region="Vigo">
+    <lat>36.4819</lat>
+    <lon>-6.4166</lon>
+    <depth_m>12</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-068" region="Cádiz">
+    <lat>37.0399</lat>
+    <lon>-9.4588</lon>
+    <depth_m>3030</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-069" region="Valencia">
+    <lat>38.7299</lat>
+    <lon>-8.3293</lon>
+    <depth_m></depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-070" region="Palma">
+    <lat>41.7095</lat>
+    <lon>-1.8868</lon>
+    <depth_m></depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-071" region="Palma">
+    <lat>36.4454</lat>
+    <lon>-2.7748</lon>
+    <depth_m>1916</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-072" region="Vigo">
+    <lat>36.9002</lat>
+    <lon>1.0894</lon>
+    <depth_m>1981</depth_m>
+  </station>
+  <station id="st-073" region="Palma">
+    <lat>36.0939</lat>
+    <lon>-2.2715</lon>
+    <depth_m>1485</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-074" region="Palma">
+    <lat>40.1274</lat>
+    <lon>-3.8897</lon>
+    <depth_m>1149</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-075" region="Cádiz">
+    <lat>36.6609</lat>
+    <lon>1.1166</lon>
+    <depth_m>2846</depth_m>
+  </station>
+  <station id="st-076">
+    <lat>40.8996</lat>
+    <lon>-7.9228</lon>
+    <depth_m>939</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-077" region="Vigo">
+    <lat>40.7221</lat>
+    <lon>-0.2114</lon>
+    <depth_m>3892</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-078">
+    <lat>39.2478</lat>
+    <lon>3.1249</lon>
+    <depth_m>1204</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-079" region="Cádiz">
+    <lat>42.2571</lat>
+    <lon>-8.9883</lon>
+    <depth_m>3197</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-080" region="Palma">
+    <lat>43.3128</lat>
+    <lon>-9.6288</lon>
+    <depth_m>2262</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-081" region="Cádiz">
+    <lat>39.7381</lat>
+    <lon>-7.2307</lon>
+    <depth_m>2933</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-082" region="Cádiz">
+    <lat>40.6858</lat>
+    <lon>-4.9346</lon>
+    <depth_m>6</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-083" region="Palma">
+    <lat>40.4836</lat>
+    <lon>-4.2785</lon>
+    <depth_m>661</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-084" region="Cádiz">
+    <lat>38.7731</lat>
+    <lon>-2.0803</lon>
+    <depth_m>821</depth_m>
+  </station>
+  <station id="st-085" region="Vigo">
+    <lat>43.3165</lat>
+    <lon>-0.9489</lon>
+    <depth_m>1172</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-086" region="Santander">
+    <lat>37.9770</lat>
+    <lon>-2.9623</lon>
+    <depth_m>2283</depth_m>
+  </station>
+  <station id="st-087" region="Vigo">
+    <lat>40.6878</lat>
+    <lon>-9.6637</lon>
+    <depth_m>2700</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-088" region="Palma">
+    <lat>42.1157</lat>
+    <lon>-7.1604</lon>
+    <depth_m>2031</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-089" region="Santander">
+    <lat>42.6423</lat>
+    <lon>-2.5319</lon>
+    <depth_m>2850</depth_m>
+  </station>
+  <station id="st-090" region="Cádiz">
+    <lat>41.9524</lat>
+    <lon>-5.3910</lon>
+    <depth_m>2804</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-091" region="Cádiz">
+    <lat>35.8554</lat>
+    <lon>-9.3759</lon>
+    <depth_m>3784</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-092">
+    <lat>38.8455</lat>
+    <lon>-9.6505</lon>
+    <depth_m>2111</depth_m>
+  </station>
+  <station id="st-093" region="Santander">
+    <lat>36.5422</lat>
+    <lon>2.7719</lon>
+    <depth_m>1243</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-094" region="Palma">
+    <lat>39.1710</lat>
+    <lon>-7.6471</lon>
+    <depth_m>1405</depth_m>
+  </station>
+  <station id="st-095" region="Cádiz">
+    <lat>37.3419</lat>
+    <lon>-5.3924</lon>
+    <depth_m>2385</depth_m>
+  </station>
+  <station id="st-096" region="Vigo">
+    <lat>37.9248</lat>
+    <lon>-0.5888</lon>
+    <depth_m></depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-097" region="Vigo">
+    <lat>38.6835</lat>
+    <lon>-3.5221</lon>
+    <depth_m>1057</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-098" region="Cádiz">
+    <lat>36.8076</lat>
+    <lon>1.2100</lon>
+    <depth_m>2838</depth_m>
+  </station>
+  <station id="st-099" region="Santander">
+    <lat>38.3326</lat>
+    <lon>0.7097</lon>
+    <depth_m>2507</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-100" region="Valencia">
+    <lat>38.5149</lat>
+    <lon>-8.6741</lon>
+    <depth_m>1546</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-101" region="Valencia">
+    <lat>42.3307</lat>
+    <lon>-1.1871</lon>
+    <depth_m>1359</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-102" region="Palma">
+    <lat>40.7702</lat>
+    <lon>-8.7447</lon>
+    <depth_m></depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-103" region="Valencia">
+    <lat>41.9389</lat>
+    <lon>-6.0244</lon>
+    <depth_m>2827</depth_m>
+  </station>
+  <station id="st-104" region="Valencia">
+    <lat>43.4245</lat>
+    <lon>3.9547</lon>
+    <depth_m>2009</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-105">
+    <lat>37.7591</lat>
+    <lon>-8.8172</lon>
+    <depth_m>3616</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-106">
+    <lat>40.7568</lat>
+    <lon>-3.6077</lon>
+    <depth_m>531</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-107" region="Vigo">
+    <lat>36.2483</lat>
+    <lon>-9.5508</lon>
+    <depth_m>2252</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-108" region="Santander">
+    <lat>35.3369</lat>
+    <lon>-2.9068</lon>
+    <depth_m></depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-109" region="Santander">
+    <lat>39.2311</lat>
+    <lon>3.8535</lon>
+    <depth_m>1716</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-110" region="Palma">
+    <lat>41.0806</lat>
+    <lon>3.6165</lon>
+    <depth_m>2282</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-111" region="Palma">
+    <lat>35.1641</lat>
+    <lon>3.8473</lon>
+    <depth_m>513</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-112" region="Palma">
+    <lat>43.0663</lat>
+    <lon>0.7747</lon>
+    <depth_m>2735</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-113" region="Cádiz">
+    <lat>39.8249</lat>
+    <lon>1.5360</lon>
+    <depth_m>380</depth_m>
+    <operator>IEO</operator>
+  </station>
+  <station id="st-114" region="Cádiz">
+    <lat>37.8444</lat>
+    <lon>-4.1680</lon>
+    <depth_m>279</depth_m>
+    <operator>Nodum</operator>
+  </station>
+  <station id="st-115" region="Palma">
+    <lat>43.3128</lat>
+    <lon>-5.2369</lon>
+    <depth_m>1989</depth_m>
+  </station>
+  <station id="st-116" region="Valencia">
+    <lat>40.6446</lat>
+    <lon>-9.7390</lon>
+    <depth_m>3373</depth_m>
+  </station>
+  <station id="st-117" region="Vigo">
+    <lat>41.6491</lat>
+    <lon>-2.0587</lon>
+    <depth_m>2866</depth_m>
+  </station>
+  <station id="st-118" region="Cádiz">
+    <lat>35.1866</lat>
+    <lon>0.6921</lon>
+    <depth_m>998</depth_m>
+    <operator>Puertos</operator>
+  </station>
+  <station id="st-119">
+    <lat>38.7513</lat>
+    <lon>-7.0644</lon>
+    <depth_m></depth_m>
+    <operator>IEO</operator>
+  </station>
+</stations>
