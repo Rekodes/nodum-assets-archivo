@@ -1,0 +1,108 @@
+{
+ "owner": "0x210bF12ED450a1f7fd0818A668b84d58A902b553",
+ "did": null,
+ "jobId": "113abdafd33a34af246d215827377ef2fbb0c361dcd9171574c803ad71bb6471",
+ "dateCreated": "1792451892.293",
+ "dateFinished": "1792451903.816",
+ "status": 70,
+ "statusText": "Job finished",
+ "results": [
+  {
+   "filename": "image.log",
+   "filesize": 705,
+   "type": "imageLog",
+   "index": 0
+  },
+  {
+   "filename": "configuration.log",
+   "filesize": 1115,
+   "type": "configurationLog",
+   "index": 1
+  },
+  {
+   "filename": "algorithm.log",
+   "filesize": 382,
+   "type": "algorithmLog",
+   "index": 2
+  },
+  {
+   "filename": "outputs.tar",
+   "filesize": 11264,
+   "type": "output",
+   "index": 3
+  }
+ ],
+ "inputDID": null,
+ "algoDID": null,
+ "agreementId": null,
+ "environment": "0xff1004b67de08fc505fbf0a2089010d0f23015338c7def8557697513c4a39935-0x6b5d7c6c025e8f8784b97f058421892893fdd113d579c00c928561b3b1cc93f1",
+ "stopRequested": false,
+ "resources": [
+  {
+   "id": "cpu",
+   "amount": 1
+  },
+  {
+   "id": "ram",
+   "amount": 1
+  },
+  {
+   "id": "disk",
+   "amount": 1
+  }
+ ],
+ "isFree": true,
+ "algoStartTimestamp": "1792451896.752",
+ "algoStopTimestamp": "1792451897.058",
+ "metadata": null,
+ "additionalViewers": null,
+ "terminationDetails": {
+  "exitCode": 0,
+  "OOMKilled": false
+ },
+ "payment": null,
+ "algoDuration": 0,
+ "queueMaxWaitTime": 0,
+ "jobIdHash": "0x08e7fdf836fe8a4f01f87d4d6215841cf1ff1ba159cf9c62cb100f0c282c4c82",
+ "buildStartTimestamp": "0",
+ "buildStopTimestamp": "0",
+ "runtimeMetrics": {
+  "collectedAt": "2026-10-19T23:18:23.792Z",
+  "containerState": {
+   "status": "exited",
+   "startedAt": "2026-10-19T23:18:16.585919432Z",
+   "finishedAt": "2026-10-19T23:18:17.058689893Z",
+   "exitCode": 0,
+   "oomKilled": false,
+   "restartCount": 0
+  },
+  "cpu": {
+   "usagePercent": 0,
+   "allocated": 1,
+   "usagePercentOfAllocated": 0,
+   "cumulativeSeconds": 0,
+   "throttledPeriods": 0,
+   "throttledSeconds": 0
+  },
+  "memory": {
+   "usageBytes": 0,
+   "limitBytes": 1073741824,
+   "usagePercent": 0,
+   "peakUsageBytes": 0
+  },
+  "disk": {
+   "usedBytes": 0,
+   "quotaBytes": 1073741824,
+   "usagePercent": 0
+  },
+  "blockIO": {
+   "readBytes": 0,
+   "writeBytes": 0
+  },
+  "pids": {
+   "current": 0,
+   "limit": 512
+  }
+ },
+ "maxJobDuration": 240
+}

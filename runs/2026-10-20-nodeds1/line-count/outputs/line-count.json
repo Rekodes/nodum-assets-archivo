@@ -1,0 +1,17 @@
+{
+  "datasets": 2,
+  "total_lines": 3345,
+  "skip_header": false,
+  "files": [
+    {
+      "file": "estaciones.xml",
+      "lines": 703,
+      "bytes": 18157
+    },
+    {
+      "file": "limpias.json",
+      "lines": 2642,
+      "bytes": 49164
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+ "owner": "0x210bF12ED450a1f7fd0818A668b84d58A902b553",
+ "did": null,
+ "jobId": "e2b2fa6372ca69e51aac225a8b14de27525d94eae9c460a7be6b49f7f88d35e6",
+ "dateCreated": "1792451672.433",
+ "dateFinished": "1792451684.327",
+ "status": 71,
+ "statusText": "Job settling",
+ "results": [
+  {
+   "filename": "image.log",
+   "filesize": 679,
+   "type": "imageLog",
+   "index": 0
+  },
+  {
+   "filename": "configuration.log",
+   "filesize": 881,
+   "type": "configurationLog",
+   "index": 1
+  },
+  {
+   "filename": "algorithm.log",
+   "filesize": 186,
+   "type": "algorithmLog",
+   "index": 2
+  },
+  {
+   "filename": "outputs.tar",
+   "filesize": 10240,
+   "type": "output",
+   "index": 3
+  }
+ ],
+ "inputDID": null,
+ "algoDID": null,
+ "agreementId": null,
+ "environment": "0xff1004b67de08fc505fbf0a2089010d0f23015338c7def8557697513c4a39935-0x6b5d7c6c025e8f8784b97f058421892893fdd113d579c00c928561b3b1cc93f1",
+ "stopRequested": false,
+ "resources": [
+  {
+   "id": "cpu",
+   "amount": 1
+  },
+  {
+   "id": "ram",
+   "amount": 1
+  },
+  {
+   "id": "disk",
+   "amount": 1
+  }
+ ],
+ "isFree": true,
+ "algoStartTimestamp": "1792451677.24",
+ "algoStopTimestamp": "1792451677.463",
+ "metadata": null,
+ "additionalViewers": null,
+ "terminationDetails": {
+  "exitCode": 0,
+  "OOMKilled": false
+ },
+ "payment": null,
+ "algoDuration": 0,
+ "queueMaxWaitTime": 0,
+ "jobIdHash": "0xd51b2c7d9d2ce31e1b6451aaeebd2b9894c83d55e2280da3d406f785717318b2",
+ "buildStartTimestamp": "0",
+ "buildStopTimestamp": "0",
+ "maxJobDuration": 240
+}

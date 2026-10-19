@@ -30,7 +30,9 @@ algorithms/
   <algoritmo>/      el código de cada uno
   DIGESTS           el digest de cada imagen publicada
 tests/              cada algoritmo con los datasets, como lo ejecutaría el nodo
-CATALOGO.md         lo publicado en Nodum: DIDs, nodos, huellas y ejecuciones de prueba
+tools/              free_compute.py: lanza un trabajo en un ocean-node sin Nodum y baja sus resultados
+runs/               las ejecuciones de prueba: estado, logs y salidas tal como las dio el nodo
+CATALOGO.md         lo publicado en Nodum (DIDs, nodos, huellas) y las ejecuciones de prueba
 ```
 
 ## Datasets
@@ -92,6 +94,25 @@ make run a=dp-histogram in="datasets/sinteticos/boyas-hipoxia/v1/site-?.json" pa
 
 Para usar las imágenes publicadas en vez de construirlas, `docker pull` con el digest de
 `algorithms/DIGESTS`.
+
+## Reproducir contra un ocean-node
+
+Cualquier nodo con entorno gratuito sirve. Uno de los de la tesis es `https://nodeds1.ibatec.es`.
+`tools/free_compute.py`:
+1. firma la petición con una dirección de usar y tirar (la ruta gratuita no pide saldo);
+2. espera a que el trabajo termine;
+3. baja los logs y las salidas.
+
+```bash
+uv run --no-project --with eth-account --with httpx python tools/free_compute.py \
+  https://nodeds1.ibatec.es \
+  "rekodes/nodum-dp-histogram:0.1.0@sha256:15b43f80475599c8a461af35aa8b37fb229021c1f6c758cbac0cab862115725e" \
+  "python /app/main.py" \
+  https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-a.json \
+  https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-b.json \
+  https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-c.json \
+  --params '{"epsilon": 0.5}'
+```
 
 ## En Nodum
 
