@@ -1,10 +1,11 @@
-# Datasets
+# Mar
 
-Sintéticos. Se sirven sin clave desde `https://datos.rekodes.com/sinteticos/`, con la misma ruta que
-aquí. Lo publicado no cambia: un cambio es una versión nueva (`v2`). `SHA256SUMS` guarda la huella de
-cada fichero.
+Boyas costeras con hipoxia, capturas pesqueras y estaciones costeras. Para la calidad de los datos se
+usan los algoritmos de [`generic/`](../generic/).
 
-## Catálogo
+## Datasets
+
+En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/sinteticos/`.
 
 | Fichero | Registros | Qué es |
 |---|---|---|
@@ -33,6 +34,33 @@ cada fichero.
 | `cortadas.json` | JSON mal formado |
 | `estaciones.xml` | 12 % sin el atributo `region` · 8 % con `depth_m` vacío · 20 % sin `operator` |
 
+### Generadores
+
+| Generador | Ficheros |
+|---|---|
+| [`boyas_hipoxia.py`](datasets/generadores/boyas_hipoxia.py) | `boyas-hipoxia/v1/*` |
+| [`calidad_json_xml.py`](datasets/generadores/calidad_json_xml.py) | `capturas/v1/*`, `estaciones/v1/*` |
+
+## Algoritmos
+
+| Algoritmo | Qué hace | Datasets | Salidas |
+|---|---|---|---|
+| [dp-histogram](algorithms/dp_histogram.py) | Histograma y media con privacidad diferencial (Laplace) | Boyas | `dp-histogram.json`, `dp-histogram.svg` |
+| [hypoxia-model](algorithms/hypoxia_model.py) | Regresión logística que predice la hipoxia; salen pesos y métricas | Boyas | `model.json`, `metrics.json`, `coefficients.svg` |
+
+| Algoritmo | Parámetro | Tipo | Por defecto | Qué hace |
+|---|---|---|---|---|
+| dp-histogram | `column` | select | `sea_surface_temp_c` | Variable de las boyas |
+| | `epsilon` | number | `1` | Más pequeño, más ruido |
+| | `bins` | number | `16` | Intervalos |
+| | `lower`, `upper` | number | `15`, `35` | Recorte de los valores |
+| hypoxia-model | `epochs` | number | `300` | Pasadas del descenso de gradiente |
+| | `learning_rate` | number | `0.5` | Tamaño del paso |
+| | `l2` | number | `0.001` | Regularización |
+
+`column` admite `sea_surface_temp_c`, `salinity_psu`, `chlorophyll_mg_m3`, `dissolved_oxygen_mg_l`,
+`wind_speed_m_s` y `wave_height_m`.
+
 ## En Nodum
 
 | Dataset | Fichero | Nodo | Algoritmos de confianza |
@@ -48,16 +76,3 @@ cada fichero.
 | Capturas pesqueras limpias (JSON) · nodo 3 | `limpias.json` | nodeds3 | ídem |
 
 Las copias en nodeds2 y nodeds3 sirven para auditar cada nodo.
-
-## Generar
-
-```bash
-make data
-```
-
-| Generador | Ficheros |
-|---|---|
-| [`generadores/boyas_hipoxia.py`](generadores/boyas_hipoxia.py) | `boyas-hipoxia/v1/*` |
-| [`generadores/calidad_json_xml.py`](generadores/calidad_json_xml.py) | `capturas/v1/*`, `estaciones/v1/*` |
-
-Semilla fija y sin red: los bytes salen iguales en cada ejecución.
