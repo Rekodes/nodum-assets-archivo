@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+  <station id="ag-000" province="Lleida">
+    <lat>39.5608</lat>
+    <lon>0.3989</lon>
+    <altitude_m>1020</altitude_m>
+    <et0_mm>8.49</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-001" province="Zaragoza">
+    <lat>41.9435</lat>
+    <lon>-1.9111</lon>
+    <altitude_m>1055</altitude_m>
+    <et0_mm>6.01</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-002" province="Valladolid">
+    <lat>38.6141</lat>
+    <lon>-5.1685</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>5.39</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-003" province="Zaragoza">
+    <lat>42.2800</lat>
+    <lon>0.9061</lon>
+    <altitude_m>1083</altitude_m>
+    <et0_mm>7.71</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-004" province="Valladolid">
+    <lat>40.1796</lat>
+    <lon>-2.8967</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>4.77</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-005">
+    <lat>40.3572</lat>
+    <lon>-3.0746</lon>
+    <altitude_m>546</altitude_m>
+    <et0_mm>7.34</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-006" province="Albacete">
+    <lat>40.8416</lat>
+    <lon>-2.5091</lon>
+    <altitude_m>361</altitude_m>
+    <et0_mm>6.87</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-007" province="Huesca">
+    <lat>39.0605</lat>
+    <lon>-1.1939</lon>
+    <altitude_m>503</altitude_m>
+    <et0_mm>7.95</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-008">
+    <lat>42.3834</lat>
+    <lon>-3.5014</lon>
+    <altitude_m>656</altitude_m>
+    <et0_mm>8.10</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-009" province="Lleida">
+    <lat>41.9762</lat>
+    <lon>-1.4596</lon>
+    <altitude_m>1019</altitude_m>
+    <et0_mm>6.95</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-010" province="Huesca">
+    <lat>38.8631</lat>
+    <lon>-4.0272</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>4.94</et0_mm>
+  </station>
+  <station id="ag-011" province="Zaragoza">
+    <lat>41.7973</lat>
+    <lon>-0.6036</lon>
+    <altitude_m>527</altitude_m>
+    <et0_mm>6.53</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-012">
+    <lat>41.1077</lat>
+    <lon>-3.4316</lon>
+    <altitude_m>726</altitude_m>
+    <et0_mm>7.50</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-013" province="Albacete">
+    <lat>39.7091</lat>
+    <lon>-0.4585</lon>
+    <altitude_m>768</altitude_m>
+    <et0_mm>5.97</et0_mm>
+  </station>
+  <station id="ag-014" province="Albacete">
+    <lat>39.2534</lat>
+    <lon>-0.8809</lon>
+    <altitude_m>473</altitude_m>
+    <et0_mm>7.98</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-015" province="Albacete">
+    <lat>39.9269</lat>
+    <lon>-0.4020</lon>
+    <altitude_m>1066</altitude_m>
+    <et0_mm>7.92</et0_mm>
+  </station>
+  <station id="ag-016" province="Albacete">
+    <lat>38.7881</lat>
+    <lon>-3.3644</lon>
+    <altitude_m>976</altitude_m>
+    <et0_mm>6.92</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-017" province="Huesca">
+    <lat>40.9615</lat>
+    <lon>-1.7316</lon>
+    <altitude_m>1055</altitude_m>
+    <et0_mm>4.72</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-018" province="Zaragoza">
+    <lat>39.6998</lat>
+    <lon>-4.2585</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>8.48</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-019" province="Zaragoza">
+    <lat>41.8851</lat>
+    <lon>-5.0412</lon>
+    <altitude_m>173</altitude_m>
+    <et0_mm>6.29</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-020" province="Albacete">
+    <lat>39.0641</lat>
+    <lon>-3.8581</lon>
+    <altitude_m>297</altitude_m>
+    <et0_mm>8.03</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-021" province="Valladolid">
+    <lat>38.7135</lat>
+    <lon>-4.1754</lon>
+    <altitude_m>578</altitude_m>
+    <et0_mm>5.78</et0_mm>
+  </station>
+  <station id="ag-022" province="Huesca">
+    <lat>41.2632</lat>
+    <lon>-4.5687</lon>
+    <altitude_m>544</altitude_m>
+    <et0_mm>4.71</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-023" province="Huesca">
+    <lat>41.5623</lat>
+    <lon>0.9290</lon>
+    <altitude_m>482</altitude_m>
+    <et0_mm>6.99</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-024" province="Albacete">
+    <lat>40.7860</lat>
+    <lon>-1.3141</lon>
+    <altitude_m>881</altitude_m>
+    <et0_mm>7.84</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-025" province="Lleida">
+    <lat>40.8166</lat>
+    <lon>-1.6715</lon>
+    <altitude_m>169</altitude_m>
+    <et0_mm>5.00</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-026" province="Lleida">
+    <lat>40.0455</lat>
+    <lon>-2.2760</lon>
+    <altitude_m>722</altitude_m>
+    <et0_mm>6.58</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-027">
+    <lat>39.7868</lat>
+    <lon>-3.9859</lon>
+    <altitude_m>280</altitude_m>
+    <et0_mm>4.96</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-028" province="Zaragoza">
+    <lat>39.7830</lat>
+    <lon>-5.1175</lon>
+    <altitude_m>703</altitude_m>
+    <et0_mm>7.60</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-029" province="Valladolid">
+    <lat>41.3351</lat>
+    <lon>-2.9494</lon>
+    <altitude_m>255</altitude_m>
+    <et0_mm>6.32</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-030">
+    <lat>40.5103</lat>
+    <lon>-2.4474</lon>
+    <altitude_m>419</altitude_m>
+    <et0_mm>6.43</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-031" province="Zaragoza">
+    <lat>39.0876</lat>
+    <lon>-5.1845</lon>
+    <altitude_m>493</altitude_m>
+    <et0_mm>6.99</et0_mm>
+  </station>
+  <station id="ag-032" province="Zaragoza">
+    <lat>38.8116</lat>
+    <lon>0.5042</lon>
+    <altitude_m>507</altitude_m>
+    <et0_mm>5.25</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-033" province="Valladolid">
+    <lat>41.7566</lat>
+    <lon>-0.9347</lon>
+    <altitude_m>600</altitude_m>
+    <et0_mm>7.05</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-034" province="Zaragoza">
+    <lat>40.1925</lat>
+    <lon>-0.0812</lon>
+    <altitude_m>861</altitude_m>
+    <et0_mm>6.05</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-035" province="Valladolid">
+    <lat>40.1344</lat>
+    <lon>-4.5196</lon>
+    <altitude_m>460</altitude_m>
+    <et0_mm>5.48</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-036" province="Valladolid">
+    <lat>40.5641</lat>
+    <lon>-0.4185</lon>
+    <altitude_m>605</altitude_m>
+    <et0_mm>4.63</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-037" province="Lleida">
+    <lat>39.2310</lat>
+    <lon>-3.8273</lon>
+    <altitude_m>215</altitude_m>
+    <et0_mm>5.88</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-038" province="Huesca">
+    <lat>38.5615</lat>
+    <lon>-0.5127</lon>
+    <altitude_m>425</altitude_m>
+    <et0_mm>4.61</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-039" province="Albacete">
+    <lat>41.0813</lat>
+    <lon>-1.7008</lon>
+    <altitude_m>678</altitude_m>
+    <et0_mm>4.88</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-040" province="Valladolid">
+    <lat>40.4957</lat>
+    <lon>-5.1095</lon>
+    <altitude_m>609</altitude_m>
+    <et0_mm>8.01</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-041" province="Valladolid">
+    <lat>38.7740</lat>
+    <lon>-0.6716</lon>
+    <altitude_m>207</altitude_m>
+    <et0_mm>5.39</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-042" province="Lleida">
+    <lat>40.8124</lat>
+    <lon>-4.2612</lon>
+    <altitude_m>238</altitude_m>
+    <et0_mm>4.93</et0_mm>
+  </station>
+  <station id="ag-043" province="Valladolid">
+    <lat>42.2189</lat>
+    <lon>-3.1447</lon>
+    <altitude_m>342</altitude_m>
+    <et0_mm>7.17</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-044">
+    <lat>40.7446</lat>
+    <lon>-2.5791</lon>
+    <altitude_m>723</altitude_m>
+    <et0_mm>5.16</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-045" province="Albacete">
+    <lat>39.8024</lat>
+    <lon>-1.6542</lon>
+    <altitude_m>1041</altitude_m>
+    <et0_mm>5.25</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-046" province="Lleida">
+    <lat>38.7490</lat>
+    <lon>-1.2247</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>4.70</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-047" province="Valladolid">
+    <lat>39.3672</lat>
+    <lon>0.0806</lon>
+    <altitude_m>275</altitude_m>
+    <et0_mm>8.09</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-048" province="Zaragoza">
+    <lat>41.9085</lat>
+    <lon>-0.0432</lon>
+    <altitude_m>869</altitude_m>
+    <et0_mm>6.95</et0_mm>
+  </station>
+  <station id="ag-049" province="Zaragoza">
+    <lat>40.7929</lat>
+    <lon>-0.9601</lon>
+    <altitude_m>1022</altitude_m>
+    <et0_mm>5.28</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-050" province="Valladolid">
+    <lat>42.3238</lat>
+    <lon>-2.7269</lon>
+    <altitude_m>1034</altitude_m>
+    <et0_mm>7.57</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-051" province="Zaragoza">
+    <lat>41.5943</lat>
+    <lon>-4.0198</lon>
+    <altitude_m>424</altitude_m>
+    <et0_mm>5.26</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-052" province="Lleida">
+    <lat>38.9067</lat>
+    <lon>-5.0829</lon>
+    <altitude_m>1044</altitude_m>
+    <et0_mm>7.10</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-053" province="Albacete">
+    <lat>39.2166</lat>
+    <lon>-5.4153</lon>
+    <altitude_m>340</altitude_m>
+    <et0_mm>4.97</et0_mm>
+  </station>
+  <station id="ag-054" province="Albacete">
+    <lat>42.0818</lat>
+    <lon>0.2012</lon>
+    <altitude_m>213</altitude_m>
+    <et0_mm>5.58</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-055">
+    <lat>40.9543</lat>
+    <lon>-4.9965</lon>
+    <altitude_m>750</altitude_m>
+    <et0_mm>5.65</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-056" province="Albacete">
+    <lat>38.5625</lat>
+    <lon>-5.3738</lon>
+    <altitude_m>313</altitude_m>
+    <et0_mm>6.76</et0_mm>
+  </station>
+  <station id="ag-057" province="Albacete">
+    <lat>40.8980</lat>
+    <lon>-2.8236</lon>
+    <altitude_m>563</altitude_m>
+    <et0_mm>7.06</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-058" province="Valladolid">
+    <lat>40.2046</lat>
+    <lon>-1.1420</lon>
+    <altitude_m>997</altitude_m>
+    <et0_mm>5.34</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-059" province="Zaragoza">
+    <lat>42.3876</lat>
+    <lon>-4.6266</lon>
+    <altitude_m>648</altitude_m>
+    <et0_mm>7.21</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-060" province="Valladolid">
+    <lat>41.3749</lat>
+    <lon>-3.4099</lon>
+    <altitude_m>672</altitude_m>
+    <et0_mm>5.79</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-061" province="Huesca">
+    <lat>39.6090</lat>
+    <lon>-2.4084</lon>
+    <altitude_m>1070</altitude_m>
+    <et0_mm>6.46</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-062" province="Lleida">
+    <lat>38.8517</lat>
+    <lon>-5.4070</lon>
+    <altitude_m>153</altitude_m>
+    <et0_mm>4.80</et0_mm>
+  </station>
+  <station id="ag-063">
+    <lat>41.6018</lat>
+    <lon>-3.2693</lon>
+    <altitude_m>702</altitude_m>
+    <et0_mm>8.42</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-064" province="Zaragoza">
+    <lat>39.3006</lat>
+    <lon>-0.6133</lon>
+    <altitude_m>206</altitude_m>
+    <et0_mm>6.83</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-065" province="Lleida">
+    <lat>38.8846</lat>
+    <lon>-5.0295</lon>
+    <altitude_m>1055</altitude_m>
+    <et0_mm>7.03</et0_mm>
+  </station>
+  <station id="ag-066" province="Valladolid">
+    <lat>39.4322</lat>
+    <lon>-3.8001</lon>
+    <altitude_m>921</altitude_m>
+    <et0_mm>5.02</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-067" province="Zaragoza">
+    <lat>42.2984</lat>
+    <lon>0.5357</lon>
+    <altitude_m>211</altitude_m>
+    <et0_mm>7.69</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-068" province="Lleida">
+    <lat>39.3800</lat>
+    <lon>-1.1966</lon>
+    <altitude_m>783</altitude_m>
+    <et0_mm>7.33</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-069">
+    <lat>41.5354</lat>
+    <lon>-1.1144</lon>
+    <altitude_m>910</altitude_m>
+    <et0_mm>6.90</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-070" province="Zaragoza">
+    <lat>42.0975</lat>
+    <lon>-2.0441</lon>
+    <altitude_m>1081</altitude_m>
+    <et0_mm>8.16</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-071" province="Valladolid">
+    <lat>40.5254</lat>
+    <lon>-0.4551</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>6.18</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-072" province="Zaragoza">
+    <lat>39.9137</lat>
+    <lon>0.5880</lon>
+    <altitude_m>821</altitude_m>
+    <et0_mm>6.74</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-073">
+    <lat>41.3674</lat>
+    <lon>-0.6335</lon>
+    <altitude_m>1020</altitude_m>
+    <et0_mm>5.22</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-074">
+    <lat>42.0889</lat>
+    <lon>-4.4748</lon>
+    <altitude_m>265</altitude_m>
+    <et0_mm>8.27</et0_mm>
+  </station>
+  <station id="ag-075" province="Huesca">
+    <lat>39.3708</lat>
+    <lon>-3.1354</lon>
+    <altitude_m>1021</altitude_m>
+    <et0_mm>7.88</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-076" province="Albacete">
+    <lat>42.1410</lat>
+    <lon>-0.8285</lon>
+    <altitude_m>468</altitude_m>
+    <et0_mm>6.01</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-077" province="Albacete">
+    <lat>41.6702</lat>
+    <lon>-1.5946</lon>
+    <altitude_m>434</altitude_m>
+    <et0_mm>4.62</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-078" province="Huesca">
+    <lat>40.7798</lat>
+    <lon>-0.3916</lon>
+    <altitude_m>852</altitude_m>
+    <et0_mm>4.52</et0_mm>
+  </station>
+  <station id="ag-079" province="Albacete">
+    <lat>41.3971</lat>
+    <lon>-4.4811</lon>
+    <altitude_m>616</altitude_m>
+    <et0_mm>5.89</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-080" province="Valladolid">
+    <lat>40.6092</lat>
+    <lon>0.3874</lon>
+    <altitude_m>173</altitude_m>
+    <et0_mm>7.99</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-081" province="Valladolid">
+    <lat>39.9527</lat>
+    <lon>0.7342</lon>
+    <altitude_m>783</altitude_m>
+    <et0_mm>5.63</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-082" province="Valladolid">
+    <lat>39.2866</lat>
+    <lon>-5.2731</lon>
+    <altitude_m>1099</altitude_m>
+    <et0_mm>7.09</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-083" province="Zaragoza">
+    <lat>39.0652</lat>
+    <lon>-0.7469</lon>
+    <altitude_m>381</altitude_m>
+    <et0_mm>7.92</et0_mm>
+  </station>
+  <station id="ag-084" province="Huesca">
+    <lat>42.3883</lat>
+    <lon>-5.2877</lon>
+    <altitude_m>1039</altitude_m>
+    <et0_mm>5.28</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-085" province="Lleida">
+    <lat>39.3749</lat>
+    <lon>-0.9325</lon>
+    <altitude_m>594</altitude_m>
+    <et0_mm>4.89</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-086" province="Lleida">
+    <lat>40.9513</lat>
+    <lon>-1.2620</lon>
+    <altitude_m>1089</altitude_m>
+    <et0_mm>5.18</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-087" province="Albacete">
+    <lat>40.8727</lat>
+    <lon>-1.0124</lon>
+    <altitude_m>903</altitude_m>
+    <et0_mm>7.74</et0_mm>
+  </station>
+  <station id="ag-088" province="Albacete">
+    <lat>39.7185</lat>
+    <lon>0.6649</lon>
+    <altitude_m>206</altitude_m>
+    <et0_mm>8.04</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-089" province="Valladolid">
+    <lat>41.4951</lat>
+    <lon>-4.3312</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>5.95</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-090">
+    <lat>40.9217</lat>
+    <lon>-3.9241</lon>
+    <altitude_m>747</altitude_m>
+    <et0_mm>5.79</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-091" province="Lleida">
+    <lat>42.0557</lat>
+    <lon>-1.2192</lon>
+    <altitude_m>608</altitude_m>
+    <et0_mm>8.17</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-092" province="Lleida">
+    <lat>40.3707</lat>
+    <lon>-1.6867</lon>
+    <altitude_m>731</altitude_m>
+    <et0_mm>6.98</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-093" province="Huesca">
+    <lat>39.8153</lat>
+    <lon>-5.1861</lon>
+    <altitude_m></altitude_m>
+    <et0_mm>6.68</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-094" province="Huesca">
+    <lat>39.5062</lat>
+    <lon>-4.8056</lon>
+    <altitude_m>660</altitude_m>
+    <et0_mm>7.55</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-095">
+    <lat>39.5804</lat>
+    <lon>-3.0420</lon>
+    <altitude_m>156</altitude_m>
+    <et0_mm>6.40</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-096" province="Huesca">
+    <lat>41.8942</lat>
+    <lon>0.1787</lon>
+    <altitude_m>488</altitude_m>
+    <et0_mm>5.70</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-097">
+    <lat>40.6983</lat>
+    <lon>-2.2618</lon>
+    <altitude_m>778</altitude_m>
+    <et0_mm>4.95</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-098" province="Albacete">
+    <lat>42.3975</lat>
+    <lon>-0.2803</lon>
+    <altitude_m>857</altitude_m>
+    <et0_mm>6.18</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-099" province="Huesca">
+    <lat>38.9702</lat>
+    <lon>-0.5727</lon>
+    <altitude_m>696</altitude_m>
+    <et0_mm>5.54</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-100" province="Huesca">
+    <lat>38.7915</lat>
+    <lon>-5.1934</lon>
+    <altitude_m>658</altitude_m>
+    <et0_mm>7.16</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-101" province="Zaragoza">
+    <lat>40.0275</lat>
+    <lon>0.4856</lon>
+    <altitude_m>421</altitude_m>
+    <et0_mm>6.42</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-102" province="Huesca">
+    <lat>40.3371</lat>
+    <lon>-1.0153</lon>
+    <altitude_m>478</altitude_m>
+    <et0_mm>8.26</et0_mm>
+  </station>
+  <station id="ag-103" province="Huesca">
+    <lat>41.1062</lat>
+    <lon>-3.0575</lon>
+    <altitude_m>540</altitude_m>
+    <et0_mm>8.08</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-104" province="Albacete">
+    <lat>38.5545</lat>
+    <lon>0.0515</lon>
+    <altitude_m>495</altitude_m>
+    <et0_mm>7.03</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-105" province="Valladolid">
+    <lat>39.2578</lat>
+    <lon>-3.1245</lon>
+    <altitude_m>895</altitude_m>
+    <et0_mm>6.28</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-106" province="Lleida">
+    <lat>39.3678</lat>
+    <lon>0.5151</lon>
+    <altitude_m>599</altitude_m>
+    <et0_mm>7.50</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-107" province="Zaragoza">
+    <lat>38.8698</lat>
+    <lon>-2.9810</lon>
+    <altitude_m>790</altitude_m>
+    <et0_mm>7.55</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-108" province="Huesca">
+    <lat>40.5095</lat>
+    <lon>0.3185</lon>
+    <altitude_m>363</altitude_m>
+    <et0_mm>6.33</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-109" province="Lleida">
+    <lat>39.7699</lat>
+    <lon>-0.5870</lon>
+    <altitude_m>879</altitude_m>
+    <et0_mm>7.00</et0_mm>
+  </station>
+  <station id="ag-110" province="Lleida">
+    <lat>39.7185</lat>
+    <lon>-0.8563</lon>
+    <altitude_m>577</altitude_m>
+    <et0_mm>8.01</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-111" province="Albacete">
+    <lat>41.4471</lat>
+    <lon>-1.3686</lon>
+    <altitude_m>593</altitude_m>
+    <et0_mm>5.94</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-112" province="Valladolid">
+    <lat>41.9139</lat>
+    <lon>0.0464</lon>
+    <altitude_m>410</altitude_m>
+    <et0_mm>8.02</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-113" province="Lleida">
+    <lat>40.1057</lat>
+    <lon>-3.5580</lon>
+    <altitude_m>545</altitude_m>
+    <et0_mm>4.63</et0_mm>
+    <operator>Nodum</operator>
+  </station>
+  <station id="ag-114">
+    <lat>38.6349</lat>
+    <lon>-2.0451</lon>
+    <altitude_m>1006</altitude_m>
+    <et0_mm>4.75</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-115" province="Valladolid">
+    <lat>42.4039</lat>
+    <lon>-3.5584</lon>
+    <altitude_m>423</altitude_m>
+    <et0_mm>5.48</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-116" province="Valladolid">
+    <lat>38.9024</lat>
+    <lon>-4.5190</lon>
+    <altitude_m>973</altitude_m>
+    <et0_mm>7.52</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-117" province="Albacete">
+    <lat>38.6274</lat>
+    <lon>-4.4635</lon>
+    <altitude_m>627</altitude_m>
+    <et0_mm>4.77</et0_mm>
+    <operator>SIAR</operator>
+  </station>
+  <station id="ag-118" province="Albacete">
+    <lat>40.6114</lat>
+    <lon>-0.3238</lon>
+    <altitude_m>606</altitude_m>
+    <et0_mm>7.15</et0_mm>
+    <operator>Comunidad de regantes</operator>
+  </station>
+  <station id="ag-119" province="Albacete">
+    <lat>39.9809</lat>
+    <lon>-3.9659</lon>
+    <altitude_m>886</altitude_m>
+    <et0_mm>8.11</et0_mm>
+  </station>
+</stations>

@@ -1,0 +1,243 @@
+[
+ {
+  "ticket_id": "tk-0000",
+  "member": "socio-014",
+  "parcel": "25:112:0:0:14:120:3",
+  "crop": "maíz",
+  "hybrid": "FAO 700",
+  "net_weight_kg": 7980,
+  "moisture_pct": 21.7,
+  "test_weight_kg_hl": 75.2,
+  "impurities_pct": 0.4,
+  "received_at": "2026-10-25T18:42:00Z",
+  "truck": {
+   "plate": "5027 PGG",
+   "axles": 4
+  }
+ },
+ {
+  "ticket_id": "tk-0001",
+  "member": "socio-015",
+  "parcel": "2:70:0:0:15:380:2",
+  "crop": "maíz",
+  "hybrid": "FAO 700",
+  "net_weight_kg": 24600,
+  "moisture_pct": 24.5,
+  "test_weight_kg_hl": 75.7,
+  "impurities_pct": 0.4,
+  "received_at": "2026-10-19T07:35:00Z",
+  "truck": {
+   "plate": "4139 PGD",
+   "axles": 4
+  }
+ },
+ {
+  "ticket_id": "tk-0002",
+  "member": "socio-013",
+  "parcel": "47:237:0:0:9:150:3",
+  "crop": "maíz",
+  "hybrid": "FAO 500",
+  "net_weight_kg": 9380,
+  "moisture_pct": 28.7,
+  "test_weight_kg_hl": 72.7,
+  "impurities_pct": 1.6,
+  "received_at": "2026-10-11T08:51:00Z",
+  "truck": {
+   "plate": "7326 TRF",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0003",
+  "member": "socio-014",
+  "parcel": "25:112:0:0:14:120:3",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 23460,
+  "moisture_pct": 25.3,
+  "test_weight_kg_hl": 75.3,
+  "impurities_pct": 2.6,
+  "received_at": "2026-10-16T19:04:00Z",
+  "truck": {
+   "plate": "0674 SPY",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0004",
+  "member": "socio-005",
+  "parcel": "25:171:0:0:13:424:2",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 22180,
+  "moisture_pct": 22.0,
+  "test_weight_kg_hl": 75.0,
+  "impurities_pct": 0.3,
+  "received_at": "2026-10-14T08:20:00Z",
+  "truck": {
+   "plate": "6470 YYY",
+   "axles": 4
+  }
+ },
+ {
+  "ticket_id": "tk-0005",
+  "member": "socio-019",
+  "parcel": "22:140:0:0:5:68:2",
+  "crop": "maíz",
+  "hybrid": "FAO 500",
+  "net_weight_kg": 20220,
+  "moisture_pct": 21.4,
+  "test_weight_kg_hl": 75.6,
+  "impurities_pct": 2.8,
+  "received_at": "2026-10-28T13:45:00Z",
+  "truck": {
+   "plate": "3709 GYC",
+   "axles": 5
+  }
+ },
+ {
+  "ticket_id": "tk-0006",
+  "member": "socio-014",
+  "parcel": "25:112:0:0:14:120:3",
+  "crop": "maíz",
+  "hybrid": "FAO 500",
+  "net_weight_kg": 13840,
+  "moisture_pct": 28.5,
+  "test_weight_kg_hl": 72.3,
+  "impurities_pct": 2.4,
+  "received_at": "2026-10-12T08:57:00Z",
+  "truck": {
+   "plate": "4542 VLB",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0007",
+  "member": "socio-001",
+  "parcel": "47:74:0:0:22:336:2",
+  "crop": "maíz",
+  "hybrid": "FAO 500",
+  "net_weight_kg": 9480,
+  "moisture_pct": 20.3,
+  "test_weight_kg_hl": 77.0,
+  "impurities_pct": 2.1,
+  "received_at": "2026-10-20T16:42:00Z",
+  "truck": {
+   "plate": "7549 PMZ",
+   "axles": 5
+  }
+ },
+ {
+  "ticket_id": "tk-0008",
+  "member": "socio-021",
+  "parcel": "2:224:0:0:17:464:2",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 20980,
+  "moisture_pct": 24.9,
+  "test_weight_kg_hl": 76.2,
+  "impurities_pct": 2.6,
+  "received_at": "2026-10-03T10:55:00Z",
+  "truck": {
+   "plate": "0442 LMV",
+   "axles": 4
+  }
+ },
+ {
+  "ticket_id": "tk-0009",
+  "member": "socio-009",
+  "parcel": "47:200:0:0:38:358:3",
+  "crop": "maíz",
+  "hybrid": "FAO 500",
+  "net_weight_kg": 7520,
+  "moisture_pct": 24.8,
+  "test_weight_kg_hl": 74.6,
+  "impurities_pct": 1.8,
+  "received_at": "2026-10-14T18:16:00Z",
+  "truck": {
+   "plate": "8705 BFZ",
+   "axles": 5
+  }
+ },
+ {
+  "ticket_id": "tk-0010",
+  "member": "socio-023",
+  "parcel": "2:189:0:0:26:63:1",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 25480,
+  "moisture_pct": 19.4,
+  "test_weight_kg_hl": 74.8,
+  "impurities_pct": 2.8,
+  "received_at": "2026-10-19T11:33:00Z",
+  "truck": {
+   "plate": "4259 HCR",
+   "axles": 5
+  }
+ },
+ {
+  "ticket_id": "tk-0011",
+  "member": "socio-016",
+  "parcel": "25:186:0:0:30:161:2",
+  "crop": "maíz",
+  "hybrid": "FAO 700",
+  "net_weight_kg": 14060,
+  "moisture_pct": 26.1,
+  "test_weight_kg_hl": 74.9,
+  "impurities_pct": 3.2,
+  "received_at": "2026-10-24T07:28:00Z",
+  "truck": {
+   "plate": "4450 NHT",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0012",
+  "member": "socio-019",
+  "parcel": "22:140:0:0:5:68:2",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 11740,
+  "moisture_pct": 21.6,
+  "test_weight_kg_hl": 76.2,
+  "impurities_pct": 2.9,
+  "received_at": "2026-10-26T20:27:00Z",
+  "truck": {
+   "plate": "1721 ZKJ",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0013",
+  "member": "socio-010",
+  "parcel": "22:32:0:0:1:286:2",
+  "crop": "maíz",
+  "hybrid": "FAO 600",
+  "net_weight_kg": 25280,
+  "moisture_pct": 22.6,
+  "test_weight_kg_hl": 72.9,
+  "impurities_pct": 2.6,
+  "received_at": "2026-10-02T20:52:00Z",
+  "truck": {
+   "plate": "1070 PTH",
+   "axles": 3
+  }
+ },
+ {
+  "ticket_id": "tk-0014",
+  "member": "socio-020",
+  "parcel": "47:148:0:0:1:321:2",
+  "crop": "maíz",
+  "hybrid": "FAO 700",
+  "net_weight_kg": 23200,
+  "moisture_pct": 22.3,
+  "test_weight_kg_hl": 74.9,
+  "impurities_pct": 0.5,
+  "received_at": "2026-10-18T18:37:00Z",
+  "truck": {
+   "plate": "1049 BLB",
+   "axles": 4
+  }
+ },
+ {
+  "
