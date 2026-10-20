@@ -139,7 +139,8 @@ Claves de API) y apunta lo publicado en `catalog/published.json`, para no repeti
 
 ```bash
 NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py --dry-run   # qué haría
-NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py
+NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py          # publica y confía
+NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py --run    # y lanza las ejecuciones
 ``` Lo publicado, con sus DIDs y las ejecuciones de prueba, está en
 [`CATALOGO.md`](CATALOGO.md).
 

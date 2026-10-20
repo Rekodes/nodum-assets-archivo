@@ -2,11 +2,14 @@
 
     NODUM_API_KEY=ak_… python3 tools/publish_lab.py            # publica y confía
     NODUM_API_KEY=ak_… python3 tools/publish_lab.py --dry-run  # solo dice qué haría
+    NODUM_API_KEY=ak_… python3 tools/publish_lab.py --run      # además lanza las ejecuciones de prueba
 
 1. Comprueba la cartera.
 2. Publica cada dataset en su nodo y cada algoritmo (tipo `image`, digest resuelto por Nodum) en
    los tres nodos, esperando a que cada publicación termine.
 3. Hace que cada dataset confíe en los algoritmos de su lista.
+4. Con `--run`, lanza las ejecuciones de `executions`, una tras otra; espera a que terminen y guarda
+   en runs/<fecha>-nodum/ el log y las salidas que da Nodum.
 
 Lo publicado se apunta en catalog/published.json: si se vuelve a lanzar, no se publica dos veces.
 La clave se crea en Nodum, en Cuenta → Claves de API. Publicar gasta gas de la cartera de esa
@@ -22,6 +25,7 @@ import ssl
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -44,6 +48,11 @@ class Nodum:
     def __init__(self, base: str, key: str) -> None:
         self.base = base.rstrip("/")
         self.key = key
+
+    def raw(self, path: str) -> bytes:
+        request = urllib.request.Request(f"{self.base}{path}", headers={"Authorization": f"Bearer {self.key}"})
+        with urllib.request.urlopen(request, timeout=300, context=tls_context()) as response:
+            return response.read()
 
     def call(self, method: str, path: str, body: object | None = None) -> dict:
         data = None if body is None else json.dumps(body).encode()
@@ -94,10 +103,47 @@ def save_state(state: dict) -> None:
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n")
 
 
+def run_executions(nodum: Nodum, lab: dict, state: dict) -> None:
+    folder = ROOT / "runs" / f"{time.strftime('%Y-%m-%d')}-nodum"
+    for i, e in enumerate(lab["executions"], 1):
+        datasets = [state["datasets"][k]["id"] for k in e["datasets"]]
+        body = {"algorithm_id": state["algorithms"][e["algorithm"]]["id"], "dataset_ids": datasets,
+                "parameters": {k: as_text(v) for k, v in e["parameters"].items()}}
+        print(f"Ejecución {i}: {e['algorithm']} sobre {', '.join(e['datasets'])}")
+        execution = nodum.call("POST", "/v1/executions", body)
+        last = None
+        while True:
+            view = nodum.call("GET", f"/v1/executions/{execution['id']}")
+            if view.get("state") != last:
+                print(f"    {view.get('state')}")
+                last = view.get("state")
+            if view.get("state") in {"finished", "failed"}:
+                break
+            time.sleep(5)
+        out = folder / f"{i:02d}-{e['algorithm']}"
+        out.mkdir(parents=True, exist_ok=True)
+        (out / "execution.json").write_text(json.dumps(view, ensure_ascii=False, indent=2) + "\n")
+        if view["state"] == "failed":
+            print(f"    falló: {view.get('failure')}")
+            continue
+        (out / "algorithm.log").write_bytes(nodum.raw(f"/v1/executions/{execution['id']}/logs/algorithm"))
+        for output in view.get("outputs") or []:
+            name = output["name"] if isinstance(output, dict) else str(output)
+            target = out / "outputs" / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(nodum.raw(f"/v1/executions/{execution['id']}/outputs/file?name={urllib.parse.quote(name)}"))
+        print(f"    resultados en {out.relative_to(ROOT)}")
+        state.setdefault("executions", []).append({"algorithm": e["algorithm"], "datasets": e["datasets"],
+                                                   "execution_id": execution["id"], "state": view["state"],
+                                                   "job_id": view.get("job_id"), "node": view.get("node_id")})
+        save_state(state)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--url", default=os.environ.get("NODUM_URL", "https://nodum.rekodes.com"))
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--run", action="store_true", help="lanza también las ejecuciones de prueba")
     args = parser.parse_args()
     key = os.environ.get("NODUM_API_KEY", "")
     if not key.startswith("ak_"):
@@ -152,6 +198,9 @@ def main() -> int:
             nodum.call("POST", f"/v1/datasets/{dataset}/trust", {"algorithm_id": state["algorithms"][a["key"]]["id"]})
             state["trust"].append(pair)
             save_state(state)
+
+    if args.run and not args.dry_run:
+        run_executions(nodum, lab, state)
 
     print("Hecho." if not args.dry_run else "Simulación: no se ha publicado nada.")
     return 0
