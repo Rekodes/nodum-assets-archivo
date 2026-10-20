@@ -30,7 +30,8 @@ algorithms/
   <algoritmo>/      el código de cada uno
   DIGESTS           el digest de cada imagen publicada
 tests/              cada algoritmo con los datasets, como lo ejecutaría el nodo
-tools/              free_compute.py: lanza un trabajo en un ocean-node sin Nodum y baja sus resultados
+catalog/            lab.json: qué se publica en Nodum; published.json: lo ya publicado
+tools/              free_compute.py (un trabajo en un ocean-node sin Nodum) y publish_lab.py (publica el catálogo)
 runs/               las ejecuciones de prueba: estado, logs y salidas tal como las dio el nodo
 CATALOGO.md         lo publicado en Nodum (DIDs, nodos, huellas) y las ejecuciones de prueba
 ```
@@ -124,7 +125,22 @@ En Nodum cada algoritmo se publica como **imagen** (ADR-0051 de Nodum):
   `containerSectionChecksum`.
 
 El dueño de un dataset confía en un algoritmo concreto, por esas dos huellas, y solo ese puede
-ejecutarse sobre sus datos. Lo publicado, con sus DIDs y las ejecuciones de prueba, está en
+ejecutarse sobre sus datos.
+
+[`catalog/lab.json`](catalog/lab.json) describe lo que se publica en Nodum:
+- **Datasets:** cada uno con su nodo; las boyas y los de calidad en `nodeds1`, y una copia en
+  `nodeds2` y `nodeds3` para auditar cada nodo.
+- **Algoritmos:** los cinco, en los tres nodos y con sus parámetros.
+- **Confianza:** qué algoritmos admite cada dataset.
+- **Ejecuciones de prueba:** las que se lanzan para comprobarlo.
+
+[`tools/publish_lab.py`](tools/publish_lab.py) lo publica con una clave de API de Nodum (Cuenta →
+Claves de API) y apunta lo publicado en `catalog/published.json`, para no repetir nada:
+
+```bash
+NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py --dry-run   # qué haría
+NODUM_API_KEY=ak_… uv run --with certifi python tools/publish_lab.py
+``` Lo publicado, con sus DIDs y las ejecuciones de prueba, está en
 [`CATALOGO.md`](CATALOGO.md).
 
 ## Licencia

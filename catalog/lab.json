@@ -1,0 +1,99 @@
+{
+  "description": "Lo que se publica en Nodum para el laboratorio de la fase 5: los datasets con su nodo, los algoritmos con sus parámetros y qué algoritmos admite cada dataset. tools/publish_lab.py lo publica con una clave de API.",
+  "datasets": [
+    {"key": "boya-a", "name": "Boya A · laguna costera (hipoxia)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-a.json",
+     "description": "Boya sintética de una laguna costera: 720 horas de julio de 2026 con temperatura, salinidad, clorofila, viento, oleaje, oxígeno disuelto y la etiqueta de hipoxia (23 % de horas).",
+     "tags": ["sintetico", "boyas", "hipoxia", "tesis"]},
+    {"key": "boya-b", "name": "Boya B · bahía abierta (hipoxia)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-b.json",
+     "description": "Boya sintética de una bahía abierta: 720 horas de julio de 2026, 11 % de horas con hipoxia.",
+     "tags": ["sintetico", "boyas", "hipoxia", "tesis"]},
+    {"key": "boya-c", "name": "Boya C · mar abierto (hipoxia)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/boyas-hipoxia/v1/site-c.json",
+     "description": "Boya sintética de mar abierto: 720 horas de julio de 2026, 5 % de horas con hipoxia.",
+     "tags": ["sintetico", "boyas", "hipoxia", "tesis"]},
+    {"key": "capturas-limpias", "name": "Capturas pesqueras limpias (JSON)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/capturas/v1/limpias.json",
+     "description": "240 desembarcos pesqueros sintéticos en JSON, sin defectos: la referencia del banco de calidad.",
+     "tags": ["sintetico", "calidad", "json", "tesis"]},
+    {"key": "capturas-sucias", "name": "Capturas pesqueras con defectos (JSON)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/capturas/v1/sucias.json",
+     "description": "Las mismas capturas con defectos conocidos: campos que faltan, números como texto, nulos, objetos vacíos y 20 duplicados.",
+     "tags": ["sintetico", "calidad", "json", "tesis"]},
+    {"key": "capturas-cortadas", "name": "Capturas pesqueras cortadas (JSON roto)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/capturas/v1/cortadas.json",
+     "description": "Las capturas limpias cortadas a 5000 bytes: un JSON mal formado, que el banco de calidad tiene que suspender.",
+     "tags": ["sintetico", "calidad", "json", "tesis"]},
+    {"key": "estaciones", "name": "Estaciones costeras (XML)", "node": "nodeds1",
+     "url": "https://datos.rekodes.com/sinteticos/estaciones/v1/estaciones.xml",
+     "description": "120 estaciones costeras sintéticas en XML, con atributos y elementos que faltan.",
+     "tags": ["sintetico", "calidad", "xml", "tesis"]},
+    {"key": "estaciones-nodo2", "name": "Estaciones costeras (XML) · nodo 2", "node": "nodeds2",
+     "url": "https://datos.rekodes.com/sinteticos/estaciones/v1/estaciones.xml",
+     "description": "El mismo fichero de estaciones, publicado en el nodo 2 para comprobar la ejecución en cada nodo.",
+     "tags": ["sintetico", "xml", "tesis"]},
+    {"key": "capturas-nodo3", "name": "Capturas pesqueras limpias (JSON) · nodo 3", "node": "nodeds3",
+     "url": "https://datos.rekodes.com/sinteticos/capturas/v1/limpias.json",
+     "description": "Las capturas limpias, publicadas en el nodo 3 para comprobar la ejecución en cada nodo.",
+     "tags": ["sintetico", "json", "tesis"]}
+  ],
+  "algorithms": [
+    {"key": "line-count", "name": "Contar líneas", "image": "docker.io/rekodes/nodum-line-count:0.1.0",
+     "entrypoint": "python /app/main.py", "language": "python", "version": "0.1.0",
+     "description": "Cuenta las líneas y los bytes de cada dataset de entrada. El más simple: comprueba el ciclo completo con uno o varios datasets.",
+     "tags": ["tesis", "basico"],
+     "parameters": [
+       {"name": "skip_header", "type": "boolean", "label": "Saltar la cabecera", "description": "No cuenta la primera línea de cada fichero.", "required": false, "default": false}
+     ],
+     "trusted_by": ["boya-a", "boya-b", "boya-c", "capturas-limpias", "capturas-sucias", "capturas-cortadas", "estaciones", "estaciones-nodo2", "capturas-nodo3"]},
+    {"key": "data-quality", "name": "Calidad de JSON y XML", "image": "docker.io/rekodes/nodum-data-quality:0.1.0",
+     "entrypoint": "python /app/main.py", "language": "python", "version": "0.1.0",
+     "description": "Banco de calidad: validez, completitud, consistencia y unicidad por registro, con una nota de 0 a 100 por fichero y un informe HTML con gráficas.",
+     "tags": ["tesis", "calidad"],
+     "parameters": [
+       {"name": "required_fields", "type": "text", "label": "Campos obligatorios", "description": "Separados por comas; se suman a los que aparecen en la mayoría de registros.", "required": false, "default": ""}
+     ],
+     "trusted_by": ["capturas-limpias", "capturas-sucias", "capturas-cortadas", "estaciones", "estaciones-nodo2", "capturas-nodo3"]},
+    {"key": "dp-histogram", "name": "Histograma con privacidad diferencial", "image": "docker.io/rekodes/nodum-dp-histogram:0.1.0",
+     "entrypoint": "python /app/main.py", "language": "python", "version": "0.1.0",
+     "description": "Histograma y media de una variable sobre varias boyas con el mecanismo de Laplace: solo sale el agregado con ruido, nunca una lectura.",
+     "tags": ["tesis", "privacidad"],
+     "parameters": [
+       {"name": "column", "type": "select", "label": "Variable", "description": "Qué variable de las boyas se resume.", "required": true, "default": "sea_surface_temp_c",
+        "options": [{"sea_surface_temp_c": "Temperatura del agua (°C)"}, {"salinity_psu": "Salinidad (PSU)"}, {"chlorophyll_mg_m3": "Clorofila (mg/m³)"}, {"dissolved_oxygen_mg_l": "Oxígeno disuelto (mg/L)"}, {"wind_speed_m_s": "Viento (m/s)"}, {"wave_height_m": "Oleaje (m)"}]},
+       {"name": "epsilon", "type": "number", "label": "ε (privacidad)", "description": "Más pequeño, más ruido y más privacidad.", "required": true, "default": 1},
+       {"name": "bins", "type": "number", "label": "Intervalos", "description": "Cuántas barras tiene el histograma.", "required": false, "default": 16},
+       {"name": "lower", "type": "number", "label": "Mínimo", "description": "Los valores por debajo se recortan a este.", "required": false, "default": 15},
+       {"name": "upper", "type": "number", "label": "Máximo", "description": "Los valores por encima se recortan a este.", "required": false, "default": 35}
+     ],
+     "trusted_by": ["boya-a", "boya-b", "boya-c"]},
+    {"key": "hypoxia-model", "name": "Modelo de hipoxia (regresión logística)", "image": "docker.io/rekodes/nodum-hypoxia-model:0.1.0",
+     "entrypoint": "python /app/main.py", "language": "python", "version": "0.1.0",
+     "description": "Entrena una regresión logística que predice la hipoxia con los datos de las boyas, sin que salgan del nodo: devuelve los pesos y las métricas. Es el entrenamiento local del futuro aprendizaje federado.",
+     "tags": ["tesis", "modelo", "fl"],
+     "parameters": [
+       {"name": "epochs", "type": "number", "label": "Épocas", "description": "Pasadas del descenso de gradiente.", "required": false, "default": 300},
+       {"name": "learning_rate", "type": "number", "label": "Tasa de aprendizaje", "description": "Tamaño del paso.", "required": false, "default": 0.5},
+       {"name": "l2", "type": "number", "label": "Regularización L2", "description": "Penaliza los pesos grandes.", "required": false, "default": 0.001}
+     ],
+     "trusted_by": ["boya-a", "boya-b", "boya-c"]},
+    {"key": "env-audit", "name": "Auditoría del entorno del nodo", "image": "docker.io/rekodes/nodum-env-audit:0.1.0",
+     "entrypoint": "python /app/main.py", "language": "python", "version": "0.1.0",
+     "description": "Deja constancia de lo que ve el contenedor: usuario, capacidades, límites de CPU y memoria, red, entradas con su sha256 y carpetas. Para auditar el nodo.",
+     "tags": ["tesis", "auditoria"],
+     "parameters": [
+       {"name": "probe_host", "type": "text", "label": "Dirección de prueba de red", "description": "A qué dirección intenta conectar para comprobar que no hay red.", "required": false, "default": "1.1.1.1"}
+     ],
+     "trusted_by": ["boya-a", "boya-b", "boya-c", "capturas-limpias", "capturas-sucias", "capturas-cortadas", "estaciones", "estaciones-nodo2", "capturas-nodo3"]}
+  ],
+  "executions": [
+    {"algorithm": "line-count", "datasets": ["estaciones", "capturas-limpias"], "parameters": {"skip_header": false}},
+    {"algorithm": "data-quality", "datasets": ["capturas-limpias", "capturas-sucias", "capturas-cortadas", "estaciones"], "parameters": {}},
+    {"algorithm": "dp-histogram", "datasets": ["boya-a", "boya-b", "boya-c"], "parameters": {"column": "sea_surface_temp_c", "epsilon": 0.5}},
+    {"algorithm": "hypoxia-model", "datasets": ["boya-a"], "parameters": {"epochs": 300}},
+    {"algorithm": "env-audit", "datasets": ["capturas-limpias"], "parameters": {}},
+    {"algorithm": "env-audit", "datasets": ["estaciones-nodo2"], "parameters": {}},
+    {"algorithm": "env-audit", "datasets": ["capturas-nodo3"], "parameters": {}}
+  ]
+}
