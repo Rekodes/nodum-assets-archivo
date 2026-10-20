@@ -43,14 +43,32 @@ if __name__ == "__main__":
   `/data/inputs`, parámetros en `algoCustomData.json` y salidas en `/data/outputs`.
 - Un error que deba ver el usuario se lanza como `AlgorithmError` (código 1) o `InvalidParametersError`
   (código 2).
-- Se publica en Nodum como tipo **imagen**, con entrypoint `python /app/main.py` y la imagen fijada por
-  su digest (`make push`).
+- Se publica en Nodum como tipo **imagen**, con entrypoint `python /app/main.py`. Nodum fija la imagen
+  por su digest.
 
 En local, sin Docker:
 
 ```bash
 PYTHONPATH=shared OCEAN_INPUTS=/tmp/in OCEAN_OUTPUTS=/tmp/out python3 generic/algorithms/line_count.py
 ```
+
+## Subir a Docker Hub
+
+Cada uno sube a su espacio de Docker Hub (su usuario o una organización suya) con su `docker login`;
+el script no guarda credenciales. Un algoritmo, una carpeta o todos:
+
+```bash
+make push a=water_stress_model           # uno
+make push a=agro                         # una carpeta
+make push a=all                          # todos
+make push                                # pregunta
+make push a=agro ns=mi-org VERSION=0.3.0 # otro espacio u otra versión
+```
+
+Construye para linux/amd64, sube `<espacio>/nodum-<algoritmo>:<versión>`, comprueba que se ve sin
+credenciales (el nodo la descarga así) e imprime lo que pide Nodum: imagen, entrypoint y parámetros.
+Una etiqueta que ya está no se vuelve a subir: para un cambio, versión nueva (`force=1` solo si nadie
+la usa). Sin terminal, con `DOCKERHUB_USERNAME` y `DOCKERHUB_TOKEN` (un token de acceso).
 
 ## Datasets
 
@@ -65,7 +83,7 @@ make data     # regenera los datasets de cada temática y comprueba que no cambi
 make lint     # ruff y mypy
 make build    # construye las imágenes
 make run a=water_stress_model in="agro/datasets/sinteticos/maiz-estres-hidrico/v1/todas.json"
-make push     # sube las imágenes a Docker Hub y da sus digests
+make push     # sube a tu Docker Hub un algoritmo, una carpeta o todos
 ```
 
 ## Licencia

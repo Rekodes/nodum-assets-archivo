@@ -21,8 +21,8 @@ data: ## Regenera los datasets y comprueba que no cambian
 	  echo "$$t: datasets sin cambios"; done
 
 lint: ## Ruff y mypy estricto sobre los algoritmos
-	uvx ruff check --line-length 120 --select E,F,I,B,UP,SIM,N shared */algorithms */datasets/generadores
-	MYPYPATH=shared uvx mypy --strict --python-version 3.12 shared/*.py */algorithms/*.py
+	uvx ruff check --line-length 120 --select E,F,I,B,UP,SIM,N shared */algorithms */datasets/generadores scripts
+	MYPYPATH=shared uvx mypy --strict --python-version 3.12 shared/*.py */algorithms/*.py scripts/*.py
 
 build: ## Construye las imágenes (linux/amd64)
 	@for a in $(ALGORITHMS); do n=$$(basename $$a); \
@@ -38,9 +38,7 @@ run: ## Ejecuta una imagen: make run a=line_count in="agro/datasets/…" [params
 	    -v $$work/inputs:/data/inputs:ro -v $$work/outputs:/data/outputs $(call image,$(a)) \
 	  && echo "salidas en $$work/outputs" && ls $$work/outputs
 
-push: ## Sube las imágenes a Docker Hub y escribe sus digests
-	@for a in $(ALGORITHMS); do n=$$(basename $$a); \
-	  i=$(REGISTRY)/nodum-$${n//_/-}:$(VERSION); docker push -q $$i >/dev/null || exit 1; \
-	  echo "$$i $$(docker buildx imagetools inspect $$i --format '{{json .Manifest.Digest}}' | tr -d '"')"; done
+push: ## Sube a tu Docker Hub un algoritmo, una carpeta o todos: make push a=water_stress_model|agro|all [ns=…]
+	@python3 scripts/push_images.py $(a) --version $(VERSION) $(if $(ns),--namespace $(ns)) $(if $(force),--force)
 
 .PHONY: help data lint build run push
