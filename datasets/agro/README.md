@@ -1,11 +1,11 @@
 # Agro: maíz
 
 Tres fincas de maíz que no comparten sus datos y la cooperativa a la que entregan la cosecha. Para la
-calidad de los datos se usan los algoritmos de [`generic/`](../generic/).
+calidad de los datos se usan los algoritmos de [`generic/`](../../algorithms/generic/).
 
 ## Datasets
 
-En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/sinteticos/`.
+En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `sinteticos/`.
 
 | Fichero | Registros | Qué es |
 |---|---|---|
@@ -50,16 +50,16 @@ En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/s
 
 | Generador | Ficheros |
 |---|---|
-| [`maiz_estres_hidrico.py`](datasets/generadores/maiz_estres_hidrico.py) | `maiz-estres-hidrico/v1/*` |
-| [`silo_estaciones.py`](datasets/generadores/silo_estaciones.py) | `silo-entradas/v1/*`, `estaciones-agro/v1/*` |
+| [`maiz_estres_hidrico.py`](generadores/maiz_estres_hidrico.py) | `maiz-estres-hidrico/v1/*` |
+| [`silo_estaciones.py`](generadores/silo_estaciones.py) | `silo-entradas/v1/*`, `estaciones-agro/v1/*` |
 
 ## Algoritmos
 
 | Algoritmo | Qué hace | Datasets | Salidas |
 |---|---|---|---|
-| [water-stress-model](algorithms/water_stress_model.py) | Regresión logística que predice el estrés hídrico con el tiempo y la cubierta, sin la sonda; salen pesos y métricas | Fincas | `model.json`, `metrics.json`, `coefficients.svg` |
-| [irrigation-balance](algorithms/irrigation_balance.py) | Balance de agua diario (FAO-56), días de estrés, cuánto regar y cuánto coincide con la sonda | Fincas | `irrigation-balance.json`, `irrigation-balance.svg` |
-| [dp-silo-report](algorithms/dp_silo_report.py) | Entregas, toneladas, humedad media e histograma de humedad con privacidad diferencial **por socio** | Silo | `dp-silo-report.json`, `dp-silo-report.svg` |
+| [water-stress-model](../../algorithms/agro/water_stress_model.py) | Regresión logística que predice el estrés hídrico con el tiempo y la cubierta, sin la sonda; salen pesos y métricas | Fincas | `model.json`, `metrics.json`, `coefficients.svg` |
+| [irrigation-balance](../../algorithms/agro/irrigation_balance.py) | Balance de agua diario (FAO-56), días de estrés, cuánto regar y cuánto coincide con la sonda | Fincas | `irrigation-balance.json`, `irrigation-balance.svg` |
+| [dp-silo-report](../../algorithms/agro/dp_silo_report.py) | Entregas, toneladas, humedad media e histograma de humedad con privacidad diferencial **por socio** | Silo | `dp-silo-report.json`, `dp-silo-report.svg` |
 
 | Algoritmo | Parámetro | Tipo | Por defecto | Qué hace |
 |---|---|---|---|---|

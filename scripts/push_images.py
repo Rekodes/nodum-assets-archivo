@@ -65,7 +65,7 @@ class AlgorithmSource:
 
     @property
     def theme(self) -> str:
-        return self.path.parent.parent.name
+        return self.path.parent.name
 
     @property
     def build_arg(self) -> str:
@@ -96,7 +96,7 @@ class AlgorithmSource:
 
 
 def discover() -> list[AlgorithmSource]:
-    return [AlgorithmSource(p) for p in sorted(ROOT.glob("*/algorithms/*.py"))]
+    return [AlgorithmSource(p) for p in sorted(ROOT.glob("algorithms/*/*.py"))]
 
 
 def run(command: list[str], *, quiet: bool = False, stdin: str | None = None) -> str:

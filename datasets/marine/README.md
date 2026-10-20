@@ -1,11 +1,11 @@
 # Mar
 
 Boyas costeras con hipoxia, capturas pesqueras y estaciones costeras. Para la calidad de los datos se
-usan los algoritmos de [`generic/`](../generic/).
+usan los algoritmos de [`generic/`](../../algorithms/generic/).
 
 ## Datasets
 
-En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/sinteticos/`.
+En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `sinteticos/`.
 
 | Fichero | Registros | Qué es |
 |---|---|---|
@@ -38,15 +38,15 @@ En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/s
 
 | Generador | Ficheros |
 |---|---|
-| [`boyas_hipoxia.py`](datasets/generadores/boyas_hipoxia.py) | `boyas-hipoxia/v1/*` |
-| [`calidad_json_xml.py`](datasets/generadores/calidad_json_xml.py) | `capturas/v1/*`, `estaciones/v1/*` |
+| [`boyas_hipoxia.py`](generadores/boyas_hipoxia.py) | `boyas-hipoxia/v1/*` |
+| [`calidad_json_xml.py`](generadores/calidad_json_xml.py) | `capturas/v1/*`, `estaciones/v1/*` |
 
 ## Algoritmos
 
 | Algoritmo | Qué hace | Datasets | Salidas |
 |---|---|---|---|
-| [dp-histogram](algorithms/dp_histogram.py) | Histograma y media con privacidad diferencial (Laplace) | Boyas | `dp-histogram.json`, `dp-histogram.svg` |
-| [hypoxia-model](algorithms/hypoxia_model.py) | Regresión logística que predice la hipoxia; salen pesos y métricas | Boyas | `model.json`, `metrics.json`, `coefficients.svg` |
+| [dp-histogram](../../algorithms/marine/dp_histogram.py) | Histograma y media con privacidad diferencial (Laplace) | Boyas | `dp-histogram.json`, `dp-histogram.svg` |
+| [hypoxia-model](../../algorithms/marine/hypoxia_model.py) | Regresión logística que predice la hipoxia; salen pesos y métricas | Boyas | `model.json`, `metrics.json`, `coefficients.svg` |
 
 | Algoritmo | Parámetro | Tipo | Por defecto | Qué hace |
 |---|---|---|---|---|

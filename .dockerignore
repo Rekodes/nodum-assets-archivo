@@ -1,3 +1,3 @@
 *
 !shared/*.py
-!*/algorithms/*.py
+!algorithms/*/*.py

@@ -5,18 +5,22 @@ Datasets y algoritmos del laboratorio de [Nodum](https://nodum.rekodes.com), el 
 
 ## Organización
 
-Por temáticas, como contextos de DDD: cada una lleva sus datasets y los algoritmos que solo tienen
-sentido con ellos.
+Primero, qué tipo de cosa es: `datasets/` (lo que se publica para que otros lo computen) y `algorithms/`
+(lo que se ejecuta sobre ellos). Dentro, por temáticas, como contextos de DDD: cada una lleva sus datasets
+y los algoritmos que solo tienen sentido con ellos.
 
 | Carpeta | Qué es | Qué hay |
 |---|---|---|
-| [`agro/`](agro/) | Temática: maíz | Fincas con estrés hídrico, entradas en el silo, estaciones agroclimáticas · 3 algoritmos |
-| [`marine/`](marine/) | Temática: mar | Boyas con hipoxia, capturas pesqueras, estaciones costeras · 2 algoritmos |
-| [`generic/`](generic/) | Algoritmos para cualquier dataset | line-count, data-quality, env-audit |
+| [`datasets/agro/`](datasets/agro/) | Temática: maíz | Fincas con estrés hídrico, entradas en el silo, estaciones agroclimáticas |
+| [`datasets/marine/`](datasets/marine/) | Temática: mar | Boyas con hipoxia, capturas pesqueras, estaciones costeras |
+| [`algorithms/agro/`](algorithms/agro/) | Algoritmos de maíz | 3 algoritmos |
+| [`algorithms/marine/`](algorithms/marine/) | Algoritmos de mar | 2 algoritmos |
+| [`algorithms/generic/`](algorithms/generic/) | Algoritmos para cualquier dataset | line-count, data-quality, env-audit |
 | [`shared/`](shared/) | Núcleo compartido | El contrato con ocean-node, la regresión logística, el mecanismo de Laplace y el Dockerfile |
+| [`scripts/`](scripts/) | Herramientas del repositorio | `push_images.py`, que sube los algoritmos a Docker Hub |
 
 Una temática no importa nada de otra; todas pueden usar `shared/`. Una temática nueva es una carpeta
-con `datasets/` (generadores, `sinteticos/` y `SHA256SUMS`), `algorithms/` y su README.
+con el mismo nombre en `datasets/` (generadores, `sinteticos/`, `SHA256SUMS` y su README) y en `algorithms/`.
 
 ## Algoritmos
 
@@ -49,7 +53,7 @@ if __name__ == "__main__":
 En local, sin Docker:
 
 ```bash
-PYTHONPATH=shared OCEAN_INPUTS=/tmp/in OCEAN_OUTPUTS=/tmp/out python3 generic/algorithms/line_count.py
+PYTHONPATH=shared OCEAN_INPUTS=/tmp/in OCEAN_OUTPUTS=/tmp/out python3 algorithms/generic/line_count.py
 ```
 
 ## Subir a Docker Hub
@@ -82,7 +86,7 @@ cambio es una versión nueva (`v2`), y `SHA256SUMS` guarda la huella de cada fic
 make data     # regenera los datasets de cada temática y comprueba que no cambian
 make lint     # ruff y mypy
 make build    # construye las imágenes
-make run a=water_stress_model in="agro/datasets/sinteticos/maiz-estres-hidrico/v1/todas.json"
+make run a=water_stress_model in="datasets/agro/sinteticos/maiz-estres-hidrico/v1/todas.json"
 make push     # sube a tu Docker Hub un algoritmo, una carpeta o todos
 ```
 
