@@ -5,8 +5,7 @@ calidad de los datos se usan los algoritmos de [`generic/`](../generic/).
 
 ## Datasets
 
-Irán en `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/sinteticos/`.
-**Todavía no están publicados**: falta añadir los generadores al servicio `datos` y desplegarlo.
+En `https://datos.rekodes.com/sinteticos/`, con la misma ruta que en `datasets/sinteticos/`.
 
 | Fichero | Registros | Qué es |
 |---|---|---|
