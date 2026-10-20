@@ -4,9 +4,9 @@ SHELL := /bin/bash
 REGISTRY ?= docker.io/rekodes
 VERSION ?= 0.2.0
 PLATFORM ?= linux/amd64
-# Cada temática es una carpeta con sus datasets y sus algoritmos; generic/ vale para cualquiera.
-THEMES := $(patsubst %/datasets/,%,$(wildcard */datasets/))
-ALGORITHMS := $(basename $(wildcard */algorithms/*.py))
+# Cada temática tiene su carpeta en datasets/ y en algorithms/; generic/ vale para cualquiera.
+THEMES := $(patsubst datasets/%/,%,$(wildcard datasets/*/))
+ALGORITHMS := $(basename $(wildcard algorithms/*/*.py))
 image = $(REGISTRY)/nodum-$(subst _,-,$(notdir $(1))):$(VERSION)
 
 help: ## Esta ayuda
@@ -14,15 +14,15 @@ help: ## Esta ayuda
 
 data: ## Regenera los datasets y comprueba que no cambian
 	@for t in $(THEMES); do \
-	  for g in $$t/datasets/generadores/*.py; do python3 -I "$$g" $$t/datasets || exit 1; done; \
-	  (cd $$t/datasets && shasum -a 256 -c SHA256SUMS --quiet) || exit 1; \
-	  test "$$(find $$t/datasets/sinteticos -type f | wc -l)" -eq "$$(wc -l < $$t/datasets/SHA256SUMS)" \
+	  for g in datasets/$$t/generadores/*.py; do python3 -I "$$g" datasets/$$t || exit 1; done; \
+	  (cd datasets/$$t && shasum -a 256 -c SHA256SUMS --quiet) || exit 1; \
+	  test "$$(find datasets/$$t/sinteticos -type f | wc -l)" -eq "$$(wc -l < datasets/$$t/SHA256SUMS)" \
 	    || { echo "$$t: hay ficheros que no están en SHA256SUMS" >&2; exit 1; }; \
 	  echo "$$t: datasets sin cambios"; done
 
 lint: ## Ruff y mypy estricto sobre los algoritmos
-	uvx ruff check --line-length 120 --select E,F,I,B,UP,SIM,N shared */algorithms */datasets/generadores scripts
-	MYPYPATH=shared uvx mypy --strict --python-version 3.12 shared/*.py */algorithms/*.py scripts/*.py
+	uvx ruff check --line-length 120 --select E,F,I,B,UP,SIM,N shared algorithms datasets/*/generadores scripts
+	MYPYPATH=shared uvx mypy --strict --python-version 3.12 shared/*.py algorithms/*/*.py scripts/*.py
 
 build: ## Construye las imágenes (linux/amd64)
 	@for a in $(ALGORITHMS); do n=$$(basename $$a); \
@@ -30,8 +30,8 @@ build: ## Construye las imágenes (linux/amd64)
 	    -t $(REGISTRY)/nodum-$${n//_/-}:$(VERSION) --load . || exit 1; done
 
 # Como el nodo: sin red, 1000:1000, sin capacidades y las entradas de solo lectura.
-run: ## Ejecuta una imagen: make run a=line_count in="agro/datasets/…" [params='{…}']
-	@test -n "$(a)" -a -n "$(in)" || { echo 'uso: make run a=line_count in="agro/datasets/…"' >&2; exit 1; }
+run: ## Ejecuta una imagen: make run a=line_count in="datasets/agro/sinteticos/…" [params='{…}']
+	@test -n "$(a)" -a -n "$(in)" || { echo 'uso: make run a=line_count in="datasets/agro/sinteticos/…"' >&2; exit 1; }
 	@work=$$(mktemp -d); mkdir -p $$work/inputs $$work/outputs; chmod 777 $$work/outputs; \
 	  cp $(in) $$work/inputs/; echo '$(or $(params),{})' > $$work/inputs/algoCustomData.json; \
 	  docker run --rm --platform $(PLATFORM) --network none --user 1000:1000 --cap-drop ALL \
