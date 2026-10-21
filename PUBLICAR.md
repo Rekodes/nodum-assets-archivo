@@ -21,7 +21,7 @@ Una ficha por asset, en el orden del formulario de **Publicar**. Lo que va en `c
 
 **Genéricos**
 
-- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo)
+- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo) · [Muestra de salidas](#muestra-de-salidas)
 
 ## Datasets · Agro: maíz
 
@@ -433,3 +433,22 @@ wave_height_m=Oleaje (m)
 | `epochs` | Épocas | Número | `300` | Pasadas del descenso de gradiente. | No |
 | `learning_rate` | Tasa de aprendizaje | Número | `0.5` | Tamaño del paso. | No |
 | `l2` | Regularización L2 | Número | `0.001` | Penaliza los pesos grandes. | No |
+
+### Muestra de salidas
+
+| Paso | Campo | Valor |
+|---|---|---|
+| Tipo | Qué publicas | Un algoritmo |
+| | Tipo de algoritmo | Un script |
+| Origen | Entorno | Python 3.11 |
+| | De dónde sale | Subir un fichero |
+| | Fichero | `algorithms/generic/output_samples.py` |
+| Datos | Nombre | `Muestra de salidas` |
+| | Descripción | Escribe un fichero de cada tipo que la ficha de una ejecución sabe enseñar (SVG, PNG, JPG, CSV, TSV, JSON, Markdown, HTML, texto y log) y los casos límite: una tabla de 500 filas, un texto de más de 256 KiB, un HTML con script y ficheros sin vista. |
+| | Etiquetas | `generico, prueba, salidas` |
+| | Lenguaje | `python` |
+| | Versión | `3.11` |
+| Parámetros | | Ninguno |
+| Nodos | Dónde podrá ejecutarse | Nodo 1, Nodo 2 y Nodo 3 |
+| | Necesita internet al ejecutarse | No |
+| Se prueba con | | Cualquiera: no lee los datos |
