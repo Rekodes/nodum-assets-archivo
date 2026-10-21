@@ -3,6 +3,8 @@
 Datasets y algoritmos del laboratorio de [Nodum](https://nodum.rekodes.com), el dataspace de la tesis
 (compute-to-data con Ocean Protocol). Se publican, se confían y se ejecutan desde Nodum (web o API `/v1`).
 
+Para publicar en Nodum: [PUBLICAR.md](PUBLICAR.md), una ficha por asset en el orden del formulario.
+
 ## Organización
 
 Primero, qué tipo de cosa es: `datasets/` (lo que se publica para que otros lo computen) y `algorithms/`
