@@ -5,7 +5,7 @@ Una ficha por asset, en el orden del formulario de **Publicar**. Lo que va en `c
 - **Nodo:** el de la ficha. Un dataset vale en cualquier nodo si el algoritmo tiene servicio allí.
 - **Cabeceras de la petición:** ninguna; los datos se sirven sin clave.
 - **Copia para auditar otro nodo:** la misma ficha con otro **Nodo** y « · nodo 2» al final del **Nombre**.
-- **Etiquetas:** una a una, con Intro o coma.
+- **Etiquetas:** la línea entera se pega de una vez; cada coma separa una etiqueta.
 
 ## Índice
 
