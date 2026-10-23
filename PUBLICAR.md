@@ -21,7 +21,7 @@ Una ficha por asset, en el orden del formulario de **Publicar**. Lo que va en `c
 
 **Genéricos**
 
-- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo) · [Muestra de salidas](#muestra-de-salidas) · [Resumen de entradas](#resumen-de-entradas)
+- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo) · [Muestra de salidas](#muestra-de-salidas) · [Resumen de entradas](#resumen-de-entradas) · [Carga de CPU y memoria](#carga-de-cpu-y-memoria)
 
 ## Datasets · Agro: maíz
 
@@ -479,3 +479,31 @@ wave_height_m=Oleaje (m)
 |---|---|---|---|---|---|
 | `muestra` | Líneas de muestra | Número | `3` | Cuántas líneas de cada fichero se enseñan. | No |
 | `fallar` | Terminar con error | Sí o no | `No` | Para probar un fallo: sale con código 3. | No |
+
+### Carga de CPU y memoria
+
+| Paso | Campo | Valor |
+|---|---|---|
+| Tipo | Qué publicas | Un algoritmo |
+| | Tipo de algoritmo | Un script |
+| Origen | Entorno | Python 3.11 |
+| | De dónde sale | Un fichero de GitHub |
+| | Fichero de GitHub | `github.com/Rekodes/nodum-assets/blob/main/algorithms/generic/carga_cpu_memoria.py` |
+| Datos | Nombre | `Carga de CPU y memoria` |
+| | Descripción | Trabaja a toda CPU durante los segundos que le digas y va ocupando memoria poco a poco, para ver las métricas del nodo. No lee los datos. |
+| | Etiquetas | `generico, prueba, metricas` |
+| | Lenguaje | — |
+| | Versión | — |
+| Nodos | Dónde podrá ejecutarse | Nodo 1, Nodo 2 y Nodo 3 |
+| | Necesita internet al ejecutarse | No |
+| | Formatos que lee | Ninguno marcado: no lee los datos |
+| | Genérico | Sí |
+| Se prueba con | | Cualquiera. Con «Una serie, cada 10 s» al ejecutar se ve la memoria subir; con `sin_memoria` = Sí falla por memoria |
+
+**Parámetros**
+
+| Nombre | Etiqueta | Tipo | Valor por defecto | Descripción | Obligatorio |
+|---|---|---|---|---|---|
+| `segundos` | Segundos de trabajo | Número | `60` | Cuánto trabaja. El entorno gratuito corta a los 120 s, bajada de la imagen incluida. | No |
+| `memoria_mb` | Memoria al final (MB) | Número | `400` | La memoria que alcanza al acabar, subiendo cada segundo. | No |
+| `sin_memoria` | Quedarse sin memoria | Sí o no | `No` | Pide memoria sin parar hasta que el nodo lo para por el límite. | No |

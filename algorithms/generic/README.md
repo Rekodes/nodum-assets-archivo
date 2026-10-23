@@ -9,6 +9,7 @@ Valen para los datasets de cualquier temática.
 | [env-audit](env_audit.py) | Audita el entorno del nodo: usuario, límites, red, sha256 de las entradas | Cualquiera | `env-audit.json` |
 | [output-samples](output_samples.py) | Un fichero de cada tipo que Nodum enseña, y los casos límite. Es un script: se sube a Nodum, sin imagen | Cualquiera | `imagenes/`, `tablas/`, `datos/`, `informe.md`, `informe.html`… |
 | [resumen-entradas](resumen_entradas.py) | Bytes, líneas y una muestra de cada fichero de entrada. Es un script: se publica desde GitHub o se sube, sin imagen | Cualquiera | `resumen.json`, `resumen.csv`, `resumen.md` |
+| [carga-cpu-memoria](carga_cpu_memoria.py) | Trabaja a toda CPU y va ocupando memoria, para ver las métricas del nodo. Es un script | Cualquiera: no lee los datos | `carga.json`, `carga.csv` |
 
 | Algoritmo | Parámetro | Tipo | Por defecto | Qué hace |
 |---|---|---|---|---|
@@ -17,3 +18,6 @@ Valen para los datasets de cualquier temática.
 | env-audit | `probe_host` | text | `1.1.1.1` | Dirección con la que se prueba la red |
 | resumen-entradas | `muestra` | number | `3` | Líneas de muestra de cada fichero |
 | resumen-entradas | `fallar` | boolean | `false` | Sale con código 3, para probar un fallo |
+| carga-cpu-memoria | `segundos` | number | `60` | Cuánto trabaja (el entorno gratuito corta a los 120 s) |
+| carga-cpu-memoria | `memoria_mb` | number | `400` | La memoria que alcanza al final, en escalones de un segundo |
+| carga-cpu-memoria | `sin_memoria` | boolean | `false` | Pide memoria hasta que el nodo lo mata por el límite |
