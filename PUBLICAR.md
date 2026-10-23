@@ -21,7 +21,7 @@ Una ficha por asset, en el orden del formulario de **Publicar**. Lo que va en `c
 
 **Genéricos**
 
-- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo) · [Muestra de salidas](#muestra-de-salidas)
+- Algoritmos: [Contar líneas](#contar-líneas) · [Calidad de los datos (JSON y XML)](#calidad-de-los-datos-json-y-xml) · [Auditoría del entorno del nodo](#auditoría-del-entorno-del-nodo) · [Muestra de salidas](#muestra-de-salidas) · [Resumen de entradas](#resumen-de-entradas)
 
 ## Datasets · Agro: maíz
 
@@ -452,3 +452,30 @@ wave_height_m=Oleaje (m)
 | Nodos | Dónde podrá ejecutarse | Nodo 1, Nodo 2 y Nodo 3 |
 | | Necesita internet al ejecutarse | No |
 | Se prueba con | | Cualquiera: no lee los datos |
+
+### Resumen de entradas
+
+| Paso | Campo | Valor |
+|---|---|---|
+| Tipo | Qué publicas | Un algoritmo |
+| | Tipo de algoritmo | Un script |
+| Origen | Entorno | Python 3.11 |
+| | De dónde sale | Un fichero de GitHub |
+| | Fichero de GitHub | `github.com/Rekodes/nodum-assets/blob/main/algorithms/generic/resumen_entradas.py` |
+| Datos | Nombre | `Resumen de entradas` |
+| | Descripción | Cuenta bytes y líneas de cada fichero de entrada y deja una muestra en JSON, CSV y Markdown. |
+| | Etiquetas | `generico, prueba` |
+| | Lenguaje | — |
+| | Versión | — |
+| Nodos | Dónde podrá ejecutarse | Nodo 1, Nodo 2 y Nodo 3 |
+| | Necesita internet al ejecutarse | No |
+| | Formatos que lee | CSV, TSV, JSON, JSON Lines, XML y Texto |
+| | Genérico | Sí |
+| Se prueba con | | Cualquiera; con `fallar` = Sí termina con código 3 |
+
+**Parámetros**
+
+| Nombre | Etiqueta | Tipo | Valor por defecto | Descripción | Obligatorio |
+|---|---|---|---|---|---|
+| `muestra` | Líneas de muestra | Número | `3` | Cuántas líneas de cada fichero se enseñan. | No |
+| `fallar` | Terminar con error | Sí o no | `No` | Para probar un fallo: sale con código 3. | No |
